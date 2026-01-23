@@ -63,6 +63,16 @@ header {
     border-radius: 8px;
 }
 
+/* error */
+
+.error-button {
+    font-family: 'Jojoba', Arial, system-ui;
+    color:#f1760b;/* rgb(30, 44, 149);*/
+    background-color:rgb(255, 220, 80);
+    border: 2px solid #f1760b;
+    border-radius: 8px;
+}
+
 /* menu */
 
 .topbar {
