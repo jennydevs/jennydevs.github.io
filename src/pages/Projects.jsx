@@ -8,9 +8,10 @@ function Projects() {
         <div className='container'>
             <Topbar header_data={'Projects'}/>
             <div className='content'>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
+                <h1>2025</h1>
+                <img src="/images/border.png" className='img-border'/>
                 <ProjectList/>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
+                <img src="/images/border.png" className='img-border'/>
             </div>
             <Footer />
         </div>
