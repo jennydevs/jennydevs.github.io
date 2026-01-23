@@ -1,20 +1,32 @@
-:root {
-    font-family: Open-Sans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+@font-face {
+    font-family: 'Jojoba';
+    src: 
+        local('Jojoba'),
+        url('./fonts/Jojoba.otf') format('opentype');
+    font-weight: normal;
+}
 
-    font-synthesis: none;
+@font-face {
+    font-family: 'mini wakuwaku';
+    src: 
+        local('mini wakuwaku'),
+        url('./fonts/mini-wakuwaku.otf') format('opentype');
+    font-weight: normal;
+}
+
+html {
+    font-family: 'Jojoba', Arial, system-ui;
+    line-height: 1.5;
+    font-synthesis: weight;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     image-rendering: pixelated;
 
-}
-
-html {
     height: 100%;
 }
+
 
 body {
     margin: 0;
