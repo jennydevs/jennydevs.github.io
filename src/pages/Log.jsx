@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
 
-import Header from '../components/Header.jsx';
 import Topbar from '../components/Topbar.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -61,8 +60,7 @@ function Log(){
                 !log ? 
                     <p>Loading...</p> :
                     <div className="container">
-                        <Header header_data={'Devlog'}/>
-                        <Topbar/>
+                        <Topbar header_data={'Devlog'}/>
                         <div className="content">
                             <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
                             <div className="log">

@@ -1,6 +1,5 @@
 import { useRouteError, useNavigate } from 'react-router-dom';
 
-import Header from '../components/Header.jsx';
 
 function Error() {
     const error = useRouteError();

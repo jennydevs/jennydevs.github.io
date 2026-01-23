@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 
-import Header from '../components/Header.jsx';
 import Topbar from '../components/Topbar.jsx';
 import LogSummary from '../components/LogSummary.jsx';
 import Footer from '../components/Footer.jsx';
@@ -28,8 +27,7 @@ function Devlogs() {
     
     return (
         <div className="container">
-            <Header header_data={'Devlogs'}/>
-            <Topbar/>
+            <Topbar header_data={'Devlogs'}/>
             <div className="content">
                 <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
                 {

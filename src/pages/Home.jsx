@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
-
 import { FaGithub, FaItchIo, FaMastodon, FaBluesky, FaYoutube } from 'react-icons/fa6';
 
-import Header from '../components/Header.jsx';
 import Topbar from '../components/Topbar.jsx';
 import ProjectList from '../components/ProjectList.jsx';
 import Footer from '../components/Footer.jsx';
@@ -11,8 +9,7 @@ import Footer from '../components/Footer.jsx';
 function Home() {
     return (
         <div className="container">
-            <Header header_data={'Jenny Ton'}/>
-            <Topbar />
+            <Topbar header_data={'Jenny Ton'}/>
             <div className='content'>
                 <h1>Hi, I'm Jenny!</h1>
                 <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
