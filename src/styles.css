@@ -141,6 +141,8 @@ footer {
     background-color: rgb(255, 220, 80);
     padding: 10px;
     border-top: 10px solid white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .hori-top-spacer {
