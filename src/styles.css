@@ -27,7 +27,6 @@ html {
     height: 100%;
 }
 
-
 body {
     margin: 0;
     background-color: rgb(148, 232, 244);
@@ -115,15 +114,23 @@ h1, h2, h3, h4, h5, h6 {
 /* main content area */
 
 .container {
-    background-color: white;
+    background-color:rgb(255,252,178);
     max-width: 60em;
     margin: auto;
+    border-radius: 8px;
 }
 
 .content {
     margin: auto 10px;
     padding: 20px;
     background-color:rgb(255,252,178);
+}
+
+/* content chunk */
+
+.half-block {
+    display: block;
+    width: 50%;
 }
 
 
@@ -181,8 +188,10 @@ footer {
 .centered-project-box {
     display: flex;
     flex-direction: column;
-    min-width:0; /* stays within bounds of box */
+    min-width: 0; /* stays within bounds of box */
     text-align: center;
+    border: 5px solid rgb(255, 220, 80);
+    border-radius: 8px;
 }
 
 
