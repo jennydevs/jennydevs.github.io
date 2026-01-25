@@ -43,9 +43,9 @@ function Home() {
                 </div>
                 <hr/>
                 <h1>Recent Projects</h1>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
-                <ProjectList/>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
+                <img src="/images/border.png" className='img-border'/>
+                <ProjectList amt_of_projects={3} year={'2025'} oldest_first={false}/>
+                <img src="/images/border.png" className='img-border'/>
             </div>
             <Footer />
         </div>
