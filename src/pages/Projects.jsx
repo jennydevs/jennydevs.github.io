@@ -1,4 +1,3 @@
-import Header from '../components/Header.jsx';
 import Topbar from '../components/Topbar.jsx';
 import ProjectList from '../components/ProjectList.jsx';
 import Footer from '../components/Footer.jsx';
@@ -7,12 +6,16 @@ import Footer from '../components/Footer.jsx';
 function Projects() {
     return (
         <div className='container'>
-            <Header header_data={'Projects'}/>
-            <Topbar/>
+            <Topbar header_data={'Projects'}/>
             <div className='content'>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
-                <ProjectList/>
-                <img src="/images/border.png" width="100%" height="100%" className='img-border'/>
+                <h1>2025</h1>
+                <img src="/images/border.png" className='img-border'/>
+                <ProjectList amt_of_projects={0} year={'2025'} oldest_first={false}/>
+                <hr/>
+                <h1>2024</h1>
+                <img src="/images/border.png" className='img-border'/>
+                <ProjectList amt_of_projects={0} year={'2024'} oldest_first={false}/>
+                <img src="/images/border.png" className='img-border'/>
             </div>
             <Footer />
         </div>

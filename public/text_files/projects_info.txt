@@ -1,36 +1,42 @@
 000
+2024
 Plate, Rush, Serve!
 plate_logo.png
 Title of the game, "Plate, Rush, Serve!" in front of a background with flan and coffee on a table.
-Plate food and serve customers quickly under a time constraint in a conveyor belt style restaurant.
+Plate food and serve customers quickly to get the highest score in a conveyor belt style restaurant. Made with Pixelbox.
 https://jennydevs.itch.io/plate-rush-serve
 001
+2025
 Void Village
 void_village.png
 Two animal villagers standing in front of a house with a flower on the right.
-A small experience where you have conversations with villagers living in the middle of nowhere. A LittleJS Game Jam submission.
+A small experience where you have conversations with villagers living in the middle of nowhere. LittleJS Game Jam submission.
 https://jennydevs.itch.io/void-village
 002
+2025
 Whisker's Farm
 whiskers_farm.png
 The back of a cat facing an ominous forest that fades aways into darkness.
-Short horror farming RPG in your small hometown with a suspicious forest. Submission to Farm Jam Sacrifices / Don't Go Into The Dark, made with Godot.
+Short horror farming RPG in your small hometown with a suspicious forest. Farm Jam submission, made with Godot.
 https://jennydevs.itch.io/whiskers-farm
 003
+2025
 Prepare for Takeoff!
 prepare_for_takeoff.png
 Three buns being carried by a winged serpent as they are ready to takeoff from the dock.
-Rendered 3D scene of three buns preparing to takeoff on a winged serpent. Submission to 3D Modelling Jam, made with Blender.
+A rendered 3D scene of three buns preparing to takeoff on a winged serpent. 3D Modelling Jam submission, made with Blender.
 https://jennydevs.itch.io/prepare-for-takeoff
 004
+2025
 Meddlesome Dreams
 meddlesome_dreams.png
 A title screen with the words "Meddlesome Dreams", and imagery of a shambu creature and a sleepy bun.
-3D retro escape room puzzle game where you're trapped in a dream when you take a nap at the beach! Submission to 32BitJam "Summer Dreams", made with Godot.
+3D retro escape room puzzle game where you're trapped in a dream when you take a nap at the beach! 32BitJam "Summer Dreams" submission, made with Godot.
 https://jennydevs.itch.io/meddlesome-dreams
 005
+2025
 No Fish, No Refund!
 no_fish_no_refund.png
 A title screen with the words "No Fish No Refund!", and imagery of some groups of fish swimming to the right.
-A LOWREZJAM 2025 game submission where you must rush your way to the fish store to get the refund you deserve!
+A game where you run to the fish store to get the refund you deserve! LOWREZJAM 2025 submission, made with Godot.
 https://jennydevs.itch.io/no-fish-no-refund

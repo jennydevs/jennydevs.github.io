@@ -1,4 +1,4 @@
-2025.06.19
+2026.01.23
 2025.06.17
 [Devlogs Maker] #2: Brief Overview of Basic Features
 The minimum features in the app so far can: post devlogs; get devlogs & edit them; & delete devlogs. Import formatted devlogs & export them to system. Clear text for a clean slate. Verify/refresh tokens for user.
@@ -25,7 +25,7 @@ I also added some brief instructions just in case I forgot what to do if I didn'
 
 ## >> Devlogs
 
-I used (Github's REST API)[https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-repository-content] for fetching the contents of the repo.
+I used [Github's REST API](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-repository-content) for fetching the contents of the repo.
 
 ### >> Get Posts
 

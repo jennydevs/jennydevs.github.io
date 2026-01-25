@@ -1,18 +1,31 @@
-:root {
-    font-family: Open-Sans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+@font-face {
+    font-family: 'Jojoba';
+    src: 
+        local('Jojoba'),
+        url('./fonts/Jojoba.otf') format('opentype');
+    font-weight: normal;
+}
 
-    font-synthesis: none;
+@font-face {
+    font-family: 'mini wakuwaku';
+    src: 
+        local('mini wakuwaku'),
+        url('./fonts/mini-wakuwaku.otf') format('opentype');
+    font-weight: normal;
+}
+
+/* vertical format */
+
+html {
+    font-family: 'Jojoba', Arial, system-ui;
+    line-height: 1.5;
+    font-synthesis: weight;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     image-rendering: pixelated;
 
-}
-
-html {
     height: 100%;
 }
 
@@ -21,58 +34,101 @@ body {
     background-color: rgb(148, 232, 244);
     color: rgb(30, 44, 149);
 
-    font-size: 15px;
+    font-size: 16px;
 }
 
 hr {
     border: 1px solid rgb(255, 220, 80);
+    border-radius: 8px;
 }
 
 a {
     color: #f1760b;
 }
 
-/* header area */
-
-header {
-    padding: 20px 50px 0 50px;
-    margin-bottom: 40px;
+a:hover {
+    color: #f79941;
 }
 
-.front-name {
-    font-weight:900;
-    font-size: 5rem;
-    margin-bottom: 2px;
+a:active {
+    color: #a04905;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'mini wakuwaku', Arial, system-ui;
+}
+
+
+/* color divider */
 
 .img-border {
+    width: 100%;
+    height: 100%;
     border: 2px solid rgb(255, 220, 80);
+    border-radius: 8px;
+}
+
+/* error */
+
+.error-button {
+    font-family: 'Jojoba', Arial, system-ui;
+    color:#f1760b;/* rgb(30, 44, 149);*/
+    background-color:rgb(255, 220, 80);
+    border: 2px solid #f1760b;
     border-radius: 8px;
 }
 
 /* menu */
 
 .topbar {
-    top: 0;
-    position: sticky;
-    background-color: rgb(255, 220, 80);
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    background-color: rgb(255, 220, 80);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     border-bottom: 10px solid white;
 }
+
+.topbar-link {
+    text-decoration: none;
+}
+
+.topbar-nav {
+    -webkit-text-stroke: 5px rgb(255,252,178);
+    paint-order: stroke;
+    
+}
+
+.header-words {
+    font-size: 30px; 
+    -webkit-text-stroke: 5px rgb(255,252,178);
+    paint-order: stroke;
+}
+                    
 
 
 /* main content area */
 
 .container {
-    background-color: white;
-    max-width: 60em;
+    background-color:white;
+    max-width: 50em;
     margin: auto;
+    border-radius: 8px;
 }
 
 .content {
     margin: auto 10px;
     padding: 20px;
     background-color:rgb(255,252,178);
+    border-radius: 8px;
+}
+
+/* content chunk */
+
+.half-block {
+    text-align: center;
 }
 
 
@@ -83,6 +139,8 @@ footer {
     background-color: rgb(255, 220, 80);
     padding: 10px;
     border-top: 10px solid white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .hori-top-spacer {
@@ -119,6 +177,7 @@ footer {
     flex-direction: column;
     align-content: center;
     padding: 10px;
+    row-gap: 20px;
 }
 
 .column {
@@ -130,14 +189,33 @@ footer {
 .centered-project-box {
     display: flex;
     flex-direction: column;
-    min-width:0; /* stays within bounds of box */
+    min-width: 0; /* stays within bounds of box */
     text-align: center;
+    border: 5px solid rgb(255, 220, 80);
+    border-radius: 8px;
 }
 
-
-/* landscape */
+/* above is suited for mobile viewing (vertical) */
+/* landscape format */
 
 @media screen and (min-width: 50em) {
+    /* topbar */
+
+    .topbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .topbar-header {
+        padding-left: 70px;
+    }
+
+    .topbar-nav {
+        align-self: flex-end;
+        padding-right: 50px;
+    }
+
+    
     /* footer */
  
     .hori-top-spacer {
@@ -150,6 +228,11 @@ footer {
     .content {
         margin: auto 50px;
         padding: 20px 20px 20px 20px;
+    }
+
+    .half-block {
+        display: block;
+        width: 50%;
     }
 
 
