@@ -179,6 +179,7 @@ footer {
     flex-direction: column;
     align-content: center;
     padding: 10px;
+    row-gap: 20px;
 }
 
 .column {
