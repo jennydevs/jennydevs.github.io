@@ -15,6 +15,7 @@ function Projects() {
                 <h1>2024</h1>
                 <img src="/images/border.png" className='img-border'/>
                 <ProjectList amt_of_projects={0} year={'2024'} oldest_first={false}/>
+                <img src="/images/border.png" className='img-border'/>
             </div>
             <Footer />
         </div>
