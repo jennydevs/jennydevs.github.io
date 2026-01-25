@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 /* main content area */
 
 .container {
-    background-color:rgb(255,252,178);
+    background-color:white;
     max-width: 50em;
     margin: auto;
     border-radius: 8px;
