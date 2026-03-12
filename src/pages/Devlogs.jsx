@@ -30,12 +30,12 @@ function Devlogs() {
         <div className="container">
             <Topbar header_data={'Devlogs'}/>
             <div className="content">
-                <img src="/images/border.png" className='img-border'/>
+                <img className='img-border'/>
                 {
                     logList.length == 0 ? <p>Loading...</p> : 
                     <> {logList.map((log) => <LogSummary key={log} log_id={log}/>)} </>
                 }
-                <img src="/images/border.png" className='img-border'/>
+                <img className='img-border'/>
             </div>
             <Footer />
         </div>
