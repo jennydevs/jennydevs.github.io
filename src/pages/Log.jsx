@@ -27,7 +27,7 @@ function parseLogText(text_data) {
 
 function LogImg({img_data}) {
     return (
-        <img src={img_data.src} alt={img_data.alt} style={{display: 'block', objectFit:'contain', margin: 'auto'}}/>
+        <img src={img_data.src} alt={img_data.alt} style={{width: "100%"}}/>
     );
 }
 
@@ -71,7 +71,7 @@ function Log(){
                                     <Markdown 
                                         components={{
                                             img(props) {
-                                                const {node, src, alt} = props;
+                                                const {src, alt} = props;
 
                                                 return (
                                                     <LogImg img_data={{src, alt}} />
