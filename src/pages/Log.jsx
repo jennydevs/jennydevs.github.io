@@ -62,7 +62,7 @@ function Log(){
                     <div className="container">
                         <Topbar header_data={'Devlog'}/>
                         <div className="content">
-                            <img src="/images/border.png" className='img-border'/>
+                            <img className='img-border'/>
                             <div className="log">
                                 <article>
                                     <h1>{log.title}</h1>
@@ -84,7 +84,7 @@ function Log(){
                                     <Link to={"/devlogs"}>To devlogs</Link>
                                 </div>
                             </div>
-                            <img src="/images/border.png" className='img-border'/>
+                            <img className='img-border'/>
                         </div>
                         <Footer />
                     </div>
