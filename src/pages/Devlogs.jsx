@@ -6,11 +6,12 @@ import Footer from '../components/Footer.jsx';
 
 
 function Devlogs() {
+    const DIR_PATH = "/data/devlogs/directory.txt";
     const [logList, setLogList] = useState([]);
     
     useEffect(() => {
         async function getLogDirectory() {
-            await fetch("/text_files/directory.txt")
+            await fetch(DIR_PATH)
             .then((response)=> {
                 return response.text();
             })

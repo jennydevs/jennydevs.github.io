@@ -24,11 +24,12 @@ function parseLogData(text_data) {
 
 
 function LogSummary({log_id}) {
+    const LOG_PATH = "/data/devlogs/";
     const [log, setLog] = useState({});
 
     useEffect(() => {
         async function getLogList() {
-            await fetch(`/text_files/${log_id}.txt`)
+            await fetch(`${LOG_PATH}${log_id}/${log_id}.txt`)
             .then((response)=> {
                 return response.text();
             })

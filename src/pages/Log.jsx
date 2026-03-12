@@ -25,20 +25,22 @@ function parseLogText(text_data) {
 }
 
 
-function LogImg({img_data}) {
+function LogImg({img_data, log_path}) {
+    const IMG_PATH = `${log_path}/images/`;
     return (
-        <img src={img_data.src} alt={img_data.alt} style={{width: "100%"}}/>
+        <img loading='lazy' src={`${IMG_PATH}${img_data.src}`} alt={img_data.alt} style={{width: '100%'}}/>
     );
 }
 
 
 function Log(){
+    const LOG_PATH = "/data/devlogs/";
     const { log_id } = useParams();
     const [log, setLog] = useState({});
 
     useEffect(() => {
         async function getLogList() {
-            await fetch(`/text_files/${log_id}.txt`)
+            await fetch(`${LOG_PATH}${log_id}/${log_id}.txt`)
             .then((response)=> {
                 return response.text();
             })
@@ -67,14 +69,14 @@ function Log(){
                                 <article>
                                     <h1>{log.title}</h1>
                                     <hr/>
-                                    <em>Edited:</em> {log.edit_date} / <em>Created:</em> {log.creation_date}
+                                    <em>Edited:</em> {log.edit_date} - <em>Created:</em> {log.creation_date}
                                     <Markdown 
                                         components={{
                                             img(props) {
                                                 const {src, alt} = props;
 
                                                 return (
-                                                    <LogImg img_data={{src, alt}} />
+                                                    <LogImg img_data={{src, alt}} log_path={`${LOG_PATH}${log_id}`}/>
                                                 );
                                             }
                                         }}
