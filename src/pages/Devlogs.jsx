@@ -31,6 +31,20 @@ function divideContent(logs_list) {
 
     return groups;
 }
+function Pages({groups, curr_page, updatePage, updateList}) {
+    return (
+        <>
+            {
+                        {/* PLAN IT OUT */}
+                        {/* <li style={{paddingRight:"10px", color:'rgb(177, 86, 6)'}} ><div>&lt;&lt;</div></li>
+                        <li style={{paddingRight:"10px",textDecoration:'underline', color:'#ff6f00'}}><div>1</div></li>
+                        <li style={{paddingRight:"10px"}}><div>2</div></li>
+                        <li style={{paddingRight:"10px"}}><div>...</div></li>
+                        <li style={{textDecoration:'underline'}}><div>&gt;&gt;</div></li> */}
+            }
+        </>
+    );
+}
 
 
 function Devlogs() {
