@@ -68,11 +68,12 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
 }
 
 function ProjectList({amt_of_projects, year, oldest_first}) {
+    const PROJECTS_PATH = "/data/projects/projects_info.txt";
     const [projectInfo, setProjectInfo] = useState([]);
     
     useEffect(() => {
         async function getProjectsInfo() {
-            await fetch("/text_files/projects_info.txt")
+            await fetch(PROJECTS_PATH)
             .then((response)=> {
                 return response.text();
             })

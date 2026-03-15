@@ -25,20 +25,22 @@ function parseLogText(text_data) {
 }
 
 
-function LogImg({img_data}) {
+function LogImg({img_data, log_path}) {
+    const IMG_PATH = `${log_path}/images/`;
     return (
-        <img src={img_data.src} alt={img_data.alt} style={{display: 'block', objectFit:'contain', margin: 'auto'}}/>
+        <img loading='lazy' src={`${IMG_PATH}${img_data.src}`} alt={img_data.alt} style={{width: '100%'}}/>
     );
 }
 
 
 function Log(){
+    const LOG_PATH = "/data/devlogs/";
     const { log_id } = useParams();
     const [log, setLog] = useState({});
 
     useEffect(() => {
         async function getLogList() {
-            await fetch(`/text_files/${log_id}.txt`)
+            await fetch(`${LOG_PATH}${log_id}/${log_id}.txt`)
             .then((response)=> {
                 return response.text();
             })
@@ -62,19 +64,19 @@ function Log(){
                     <div className="container">
                         <Topbar header_data={'Devlog'}/>
                         <div className="content">
-                            <img src="/images/border.png" className='img-border'/>
+                            <img className='img-border'/>
                             <div className="log">
                                 <article>
                                     <h1>{log.title}</h1>
                                     <hr/>
-                                    <em>Edited:</em> {log.edit_date} / <em>Created:</em> {log.creation_date}
+                                    <em>Edited:</em> {log.edit_date} - <em>Created:</em> {log.creation_date}
                                     <Markdown 
                                         components={{
                                             img(props) {
-                                                const {node, src, alt} = props;
+                                                const {src, alt} = props;
 
                                                 return (
-                                                    <LogImg img_data={{src, alt}} />
+                                                    <LogImg img_data={{src, alt}} log_path={`${LOG_PATH}${log_id}`}/>
                                                 );
                                             }
                                         }}
@@ -84,7 +86,7 @@ function Log(){
                                     <Link to={"/devlogs"}>To devlogs</Link>
                                 </div>
                             </div>
-                            <img src="/images/border.png" className='img-border'/>
+                            <img className='img-border'/>
                         </div>
                         <Footer />
                     </div>

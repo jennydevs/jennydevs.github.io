@@ -24,11 +24,12 @@ function parseLogData(text_data) {
 
 
 function LogSummary({log_id}) {
+    const LOG_PATH = "/data/devlogs/";
     const [log, setLog] = useState({});
 
     useEffect(() => {
         async function getLogList() {
-            await fetch(`/text_files/${log_id}.txt`)
+            await fetch(`${LOG_PATH}${log_id}/${log_id}.txt`)
             .then((response)=> {
                 return response.text();
             })
@@ -51,7 +52,7 @@ function LogSummary({log_id}) {
                     <p>Loading...</p> :
                     <div className="log-summary">
                         <Link to={`log/${log_id}`}><h2>{log.title}</h2></Link>
-                        <p><em>Edited:</em> {log.edit_date} / <em>Created:</em> {log.creation_date}</p>
+                        <p><em>Edited:</em> {log.edit_date} - <em>Created:</em> {log.creation_date}</p>
                         <Markdown>{log.summary}</Markdown>
                     </div>
             }

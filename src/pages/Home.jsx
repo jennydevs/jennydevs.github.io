@@ -11,7 +11,7 @@ function Home() {
         <div className="container">
             <Topbar header_data={'Jenny Ton'}/>
             <div className='content'>
-                <img src="/images/border.png" className='img-border'/>
+                <img className='img-border'/>
                 <h1>Hi there!</h1>
                 <p>I like to explore digital and physical mediums that catch my interest. You'll find me learning about topics that I can utilize for other projects, especially things you usually wouldn't think about combining together.</p>
                 <h2>I'm currently working on...</h2>
@@ -42,9 +42,9 @@ function Home() {
                 </div>
                 <hr/>
                 <h1>Recent Projects</h1>
-                <img src="/images/border.png" className='img-border'/>
+                <img className='img-border'/>
                 <ProjectList amt_of_projects={3} year={'2025'} oldest_first={false}/>
-                <img src="/images/border.png" className='img-border'/>
+                <img className='img-border'/>
             </div>
             <Footer />
         </div>
