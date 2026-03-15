@@ -5,6 +5,34 @@ import LogSummary from '../components/LogSummary.jsx';
 import Footer from '../components/Footer.jsx';
 
 
+function divideContent(logs_list) {
+    const MAX_LENGTH = 4;
+    var pages = Math.floor(logs_list.length / MAX_LENGTH);
+
+    var counter = 0;
+    var groups = [];
+    var collection = [];
+    for (let i = 0; i < pages; i++) {
+        for (let j = 0; j < MAX_LENGTH; j++) {
+            collection.push(logs_list[counter]);
+            counter += 1;
+        }
+        groups.push(collection);
+        collection = [];
+    }
+
+    if (counter < logs_list.length) {
+        for (let i = counter; i < logs_list.length; i++) {
+            collection.push(logs_list[i]);
+        }
+        groups.push(collection);
+        collection = [];
+    }
+
+    return groups;
+}
+
+
 function Devlogs() {
     const DIR_PATH = "/data/devlogs/directory.txt";
     const [logList, setLogList] = useState([]);
