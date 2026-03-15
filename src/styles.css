@@ -60,6 +60,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.spacer {
+    padding-right:10px; 
+}
+
+.unactive-link {
+    color: rgb(177, 86, 6);
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+.selected-page {
+    text-decoration: underline;
+    color: #ff6f00;
+}
+
+
 /* color divider */
 
 .img-border {

@@ -31,16 +31,45 @@ function divideContent(logs_list) {
 
     return groups;
 }
+
+
+function setupPages(page_groups, curr_page, updatePage, updateList) {
+    let pages = [];
+    
+    for (let i = 0; i < page_groups.length; i++) {
+        pages.push(
+            curr_page == i ? <li className='spacer unactive-link'><div>{i}</div></li> :
+            <li className='spacer active-link' onClick={() => {updatePage(i)}}><div>{i}</div></li>
+        );
+    }
+
+    updateList(page_groups[curr_page]);
+
+    return pages;
+}
+
+
+function DevlogsList({list}){
+    return (
+        <>{list.map((log) => <LogSummary key={log} log_id={log}/>)}</>
+    );
+}
+
+
 function Pages({groups, curr_page, updatePage, updateList}) {
     return (
         <>
             {
-                        {/* PLAN IT OUT */}
-                        {/* <li style={{paddingRight:"10px", color:'rgb(177, 86, 6)'}} ><div>&lt;&lt;</div></li>
-                        <li style={{paddingRight:"10px",textDecoration:'underline', color:'#ff6f00'}}><div>1</div></li>
-                        <li style={{paddingRight:"10px"}}><div>2</div></li>
-                        <li style={{paddingRight:"10px"}}><div>...</div></li>
-                        <li style={{textDecoration:'underline'}}><div>&gt;&gt;</div></li> */}
+                <div style={{listStyle:'none', display:"flex", justifyContent:'space-evenly', flexGrow:'1', color:'rgb(241, 118, 11)'}}>
+                    <div style={{display:"flex", alignContent:'space-between'}}>
+                        {
+                            curr_page == 0 ? <li className='unactive-link spacer'><div>&lt;&lt;</div></li> :
+                            <li className='active-link spacer'><div>&lt;&lt;</div></li>
+                        }
+                        {   setupPages(groups, curr_page, updatePage, updateList)    }
+                        <li style={{textDecoration:'underline'}}><div>&gt;&gt;</div></li>
+                    </div>
+                </div>
             }
         </>
     );
@@ -49,7 +78,9 @@ function Pages({groups, curr_page, updatePage, updateList}) {
 
 function Devlogs() {
     const DIR_PATH = "/data/devlogs/directory.txt";
-    const [logList, setLogList] = useState([]);
+    const [log_list_groups, setLogList] = useState([]);
+    const [curr_list, setCurrList] = useState([]);
+    const [curr_page, setCurrPage] = useState(0);
     
     useEffect(() => {
         async function getLogDirectory() {
@@ -75,9 +106,26 @@ function Devlogs() {
             <div className="content">
                 <img className='img-border'/>
                 {
+                    log_list_groups.length == 0 ? <div>Loading...</div> :
+                        <>
+                            <DevlogsList list={curr_list} />
+                            <Pages
+                                groups={log_list_groups} 
+                                curr_page={curr_page} 
+                                updatePage={setCurrPage} 
+                                updateList={setCurrList} 
+                            />
+                        </>
+                        
+                }
+
+
+                {/* 
+                {
                     logList.length == 0 ? <p>Loading...</p> : 
                     <> {logList.map((log) => <LogSummary key={log} log_id={log}/>)} </>
-                }
+                } */}
+
                 <img className='img-border'/>
             </div>
             <Footer />
