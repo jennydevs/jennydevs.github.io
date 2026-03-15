@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'mini wakuwaku', Arial, system-ui;
 }
 
+/* pagination */
 
 .spacer {
     padding-right:10px; 
@@ -66,17 +67,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .unactive-link {
     color: rgb(177, 86, 6);
+    cursor: default;
 }
 
 .active-link {
     text-decoration: underline;
+    cursor: pointer;
 }
 
-.selected-page {
-    text-decoration: underline;
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    /* color: rgb(241, 118, 11); */
     color: #ff6f00;
 }
-
 
 /* color divider */
 

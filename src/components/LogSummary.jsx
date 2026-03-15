@@ -52,7 +52,7 @@ function LogSummary({log_id}) {
                     <p>Loading...</p> :
                     <div className="log-summary">
                         <Link to={`log/${log_id}`}><h2>{log.title}</h2></Link>
-                        <p><em>Edited:</em> {log.edit_date} / <em>Created:</em> {log.creation_date}</p>
+                        <p><em>Edited:</em> {log.edit_date} - <em>Created:</em> {log.creation_date}</p>
                         <Markdown>{log.summary}</Markdown>
                     </div>
             }
