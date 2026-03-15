@@ -58,7 +58,8 @@ function Devlogs() {
                 return response.text();
             })
             .then((id_list) => {
-                setLogList(id_list.split("\n"));
+                divideContent(id_list.split("\n"))
+                setLogList(divideContent(id_list.split("\n")));
             })
             .catch((error) => {
                 console.error(error);
