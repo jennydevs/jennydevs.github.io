@@ -103,6 +103,10 @@ function Devlogs() {
 
         getLogDirectory();
     }, []);
+
+    useEffect(() => {
+        scroll(0,0);
+    }, [curr_page]);
     
     return (
         <div className='container'>
