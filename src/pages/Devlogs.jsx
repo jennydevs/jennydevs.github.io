@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import Topbar from '../components/Topbar.jsx';
 import LogSummary from '../components/LogSummary.jsx';
 import Footer from '../components/Footer.jsx';
@@ -33,17 +32,15 @@ function divideContent(logs_list) {
 }
 
 
-function setupPages(page_groups, curr_page, updatePage, updateList) {
+function setupPages(page_groups, curr_page, updatePage) {
     let pages = [];
     
     for (let i = 0; i < page_groups.length; i++) {
         pages.push(
-            curr_page == i ? <li className='spacer unactive-link'><div>{i}</div></li> :
-            <li className='spacer active-link' onClick={() => {updatePage(i)}}><div>{i}</div></li>
+            curr_page == i ? <li key={i} className='spacer unactive-link'>{i}</li> :
+            <li key={i} className='spacer active-link' onClick={() => {updatePage(i)}}>{i}</li>
         );
     }
-
-    updateList(page_groups[curr_page]);
 
     return pages;
 }
@@ -57,19 +54,23 @@ function DevlogsList({list}){
 
 
 function Pages({groups, curr_page, updatePage, updateList}) {
+    useEffect(() => {
+        updateList(groups[curr_page]);
+    }, [curr_page]);
+
     return (
         <>
             {
-                <div style={{listStyle:'none', display:"flex", justifyContent:'space-evenly', flexGrow:'1', color:'rgb(241, 118, 11)'}}>
-                    <div style={{display:"flex", alignContent:'space-between'}}>
+                <div className='pagination'>
+                    <div style={{display:'flex', alignContent:'space-between'}}>
                         {
-                            curr_page == 0 ? <li className='unactive-link spacer' ><div>&lt;&lt;</div></li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.max(0, curr_page - 1))}}><div>&lt;&lt;</div></li>
+                            curr_page == 0 ? <li className='unactive-link spacer' >&lt;&lt;</li> :
+                            <li className='active-link spacer' onClick={() => {updatePage(Math.max(0, curr_page - 1))}}>&lt;&lt;</li>
                         }
-                        {   setupPages(groups, curr_page, updatePage, updateList)    }
+                        {   setupPages(groups, curr_page, updatePage)   }
                         {
-                            curr_page == groups.length - 1 ? <li className='unactive-link spacer' ><div>&gt;&gt;</div></li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.min(curr_page + 1, groups.length - 1))}}><div>&gt;&gt;</div></li>
+                            curr_page == groups.length - 1 ? <li className='unactive-link spacer' >&gt;&gt;</li> :
+                            <li className='active-link spacer' onClick={() => {updatePage(Math.min(curr_page + 1, groups.length - 1))}}>&gt;&gt;</li>
                         }
                     </div>
                 </div>
@@ -81,9 +82,9 @@ function Pages({groups, curr_page, updatePage, updateList}) {
 
 function Devlogs() {
     const DIR_PATH = "/data/devlogs/directory.txt";
-    const [log_list_groups, setLogList] = useState([]);
-    const [curr_list, setCurrList] = useState([]);
     const [curr_page, setCurrPage] = useState(0);
+    const [curr_list, setCurrList] = useState([]);
+    const [log_list_groups, setLogList] = useState([]);
     
     useEffect(() => {
         async function getLogDirectory() {
@@ -104,31 +105,23 @@ function Devlogs() {
     }, []);
     
     return (
-        <div className="container">
+        <div className='container'>
             <Topbar header_data={'Devlogs'}/>
-            <div className="content">
+            <div className='content'>
                 <img className='img-border'/>
                 {
                     log_list_groups.length == 0 ? <div>Loading...</div> :
                         <>
                             <DevlogsList list={curr_list} />
+                            <hr />
                             <Pages
                                 groups={log_list_groups} 
                                 curr_page={curr_page} 
                                 updatePage={setCurrPage} 
                                 updateList={setCurrList} 
                             />
-                        </>
-                        
+                        </>  
                 }
-
-
-                {/* 
-                {
-                    logList.length == 0 ? <p>Loading...</p> : 
-                    <> {logList.map((log) => <LogSummary key={log} log_id={log}/>)} </>
-                } */}
-
                 <img className='img-border'/>
             </div>
             <Footer />
