@@ -64,12 +64,12 @@ function Pages({groups, curr_page, updatePage, updateList}) {
                     <div style={{display:"flex", alignContent:'space-between'}}>
                         {
                             curr_page == 0 ? <li className='unactive-link spacer' ><div>&lt;&lt;</div></li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.min(0, curr_page - 1))}}><div>&lt;&lt;</div></li>
+                            <li className='active-link spacer' onClick={() => {updatePage(Math.max(0, curr_page - 1))}}><div>&lt;&lt;</div></li>
                         }
                         {   setupPages(groups, curr_page, updatePage, updateList)    }
                         {
                             curr_page == groups.length - 1 ? <li className='unactive-link spacer' ><div>&gt;&gt;</div></li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.max(curr_page + 1, groups.length - 1))}}><div>&gt;&gt;</div></li>
+                            <li className='active-link spacer' onClick={() => {updatePage(Math.min(curr_page + 1, groups.length - 1))}}><div>&gt;&gt;</div></li>
                         }
                     </div>
                 </div>
