@@ -9,7 +9,7 @@ import Footer from '../components/Footer.jsx';
 function Home() {
     return (
         <div className="container">
-            <Topbar header_data={'Jenny Ton'}/>
+            <Topbar header_data={'jennydevs'}/>
             <div className='content'>
                 <img className='img-border'/>
                 <h1>Hi there!</h1>
