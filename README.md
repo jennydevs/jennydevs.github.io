@@ -1,7 +1,9 @@
-# [jennyton88.github.io](https://jennyton88.github.io)
+![White, yellow, and blue pattern striped border](public/data/decor/border_rounded.png)
 
-## Welcome to my website!
+# >> Welcome to my website!
 
-Here you will find my projects, links, devlogs, and any additional information about me.
+It's [jennydevs.github.io](https://jennydevs.github.io)!
 
-![White, yellow, and blue repeating stripe border](public/images/border.png)
+You can find my projects and devlogs here.
+
+![White, yellow, and blue pattern striped border](public/data/decor/border_rounded.png)
