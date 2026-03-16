@@ -32,11 +32,11 @@ function Home() {
                     <div className='half-block' style={{textAlign: 'center'}}>
                         <h2>Links</h2>
                         <nav style={{listStyle: 'none'}}>
-                            <li> <Link to={'https://jennydevs.itch.io/'}><FaItchIo className='logo-link'/>Itch</Link></li>
-                            <li> <Link to={'https://github.com/jennyton88'}><FaGithub className='logo-link'/>Github</Link></li>
-                            <li> <Link to={'https://bsky.app/profile/jennydevs.bsky.social'}><FaBluesky className='logo-link'/>Bluesky</Link></li>
-                            <li> <Link to={'https://mastodon.gamedev.place/@jennydevs'}><FaMastodon className='logo-link'/>Mastodon</Link></li>
-                            <li> <Link to={'https://www.youtube.com/@jennydevs'}><FaYoutube className='logo-link'/>YouTube</Link></li>
+                            <li><Link to={'https://jennydevs.itch.io/'}><FaItchIo className='logo-link'/>itch.io</Link></li>
+                            <li><Link to={'https://github.com/jennydevs'}><FaGithub className='logo-link'/>Github</Link></li>
+                            <li><Link to={'https://bsky.app/profile/jennydevs.bsky.social'}><FaBluesky className='logo-link'/>Bluesky</Link></li>
+                            <li><Link to={'https://mastodon.gamedev.place/@jennydevs'}><FaMastodon className='logo-link'/>Mastodon</Link></li>
+                            <li><Link to={'https://www.youtube.com/@jennydevs'}><FaYoutube className='logo-link'/>YouTube</Link></li>
                         </nav>
                     </div>
                 </div>
