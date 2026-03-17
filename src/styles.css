@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 /* color divider */
 
 .img-border {
-    content: url(/data/decor/border_rounded.png);
+    content: url(/data/decor/border_mobile.png);
     width: 100%;
     /* border: 2px solid rgb(255, 220, 80); */
     /* border-radius: 8px; */
@@ -266,6 +266,11 @@ footer {
         width: 50%;
     }
 
+    /* color divider */
+
+    .img-border {
+        content: url(/data/decor/border_rounded.png);
+    }
 
     /* projects */
 
