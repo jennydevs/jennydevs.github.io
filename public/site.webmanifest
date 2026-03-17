@@ -1,6 +1,6 @@
 {
   "name": "jennydevs",
-  "short_name": "jendevs",
+  "short_name": "jennydevs",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#94e8f4",
+  "theme_color": "#ffdc50",
   "background_color": "#94e8f4",
   "display": "standalone"
 }
