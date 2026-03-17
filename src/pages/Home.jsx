@@ -9,34 +9,32 @@ import Footer from '../components/Footer.jsx';
 function Home() {
     return (
         <div className="container">
-            <Topbar header_data={'Jenny Ton'}/>
+            <Topbar header_data={'jennydevs'}/>
             <div className='content'>
                 <img className='img-border'/>
-                <h1>Hi there!</h1>
-                <p>I like to explore digital and physical mediums that catch my interest. You'll find me learning about topics that I can utilize for other projects, especially things you usually wouldn't think about combining together.</p>
+                <h1>Hello there!</h1>
+                <p>I like to explore digital and physical mediums that catch my interest. You'll find me learning about a variety of topics that I can utilize for an assortment of projects.</p>
                 <h2>I'm currently working on...</h2>
-                <p>Updating everything for the new year of 2026, and making more devlogs and tools. I'll be testing out some new game ideas and working on previous ones too. I'm also experimenting with tablet weaving for my exploration in printmaking.</p>
+                <p>Updating everything for the new year of 2026. I'll be making more tools and devlogs! I'm also particularly excited about a new game idea...</p>
                 <hr/>
                 <div className='row'>
                     <div className='half-block'>
                         <h2>Working on things like:</h2>
                         <p style={{listStyle:'none'}}>
-                            <li>Developing games</li>
-                            <li>Software tools</li>
-                            <li>3D modeling</li>
                             <li>Digital art</li>
-                            <li>Printmaking</li>
-                            <li>Papermaking</li>
+                            <li>Games</li>
+                            <li>3D modeling</li>
+                            <li>Convenient software tools</li>
                         </p>
                     </div>
                     <div className='half-block' style={{textAlign: 'center'}}>
                         <h2>Links</h2>
                         <nav style={{listStyle: 'none'}}>
-                            <li> <Link to={'https://jennydevs.itch.io/'}><FaItchIo className='logo-link'/>Itch</Link></li>
-                            <li> <Link to={'https://github.com/jennyton88'}><FaGithub className='logo-link'/>Github</Link></li>
-                            <li> <Link to={'https://bsky.app/profile/jennydevs.bsky.social'}><FaBluesky className='logo-link'/>Bluesky</Link></li>
-                            <li> <Link to={'https://mastodon.gamedev.place/@jennydevs'}><FaMastodon className='logo-link'/>Mastodon</Link></li>
-                            <li> <Link to={'https://www.youtube.com/@jennydevs'}><FaYoutube className='logo-link'/>YouTube</Link></li>
+                            <li><Link to={'https://jennydevs.itch.io/'}><FaItchIo className='logo-link'/>itch.io</Link></li>
+                            <li><Link to={'https://github.com/jennydevs'}><FaGithub className='logo-link'/>Github</Link></li>
+                            <li><Link to={'https://bsky.app/profile/jennydevs.bsky.social'}><FaBluesky className='logo-link'/>Bluesky</Link></li>
+                            <li><Link to={'https://mastodon.gamedev.place/@jennydevs'}><FaMastodon className='logo-link'/>Mastodon</Link></li>
+                            <li><Link to={'https://www.youtube.com/@jennydevs'}><FaYoutube className='logo-link'/>YouTube</Link></li>
                         </nav>
                     </div>
                 </div>
