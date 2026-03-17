@@ -31,7 +31,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(148, 232, 244);
+    background-color: rgb(255, 220, 80);
     color: rgb(30, 44, 149);
 
     font-size: 16px;
@@ -110,8 +110,6 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     text-align: center;
     background-color: rgb(255, 220, 80);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
     border-bottom: 10px solid white;
 }
 
@@ -163,8 +161,6 @@ footer {
     background-color: rgb(255, 220, 80);
     padding: 10px;
     border-top: 10px solid white;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 
 .hori-top-spacer {
@@ -223,11 +219,17 @@ footer {
 /* landscape format */
 
 @media screen and (min-width: 50em) {
+    body {
+        background-color: rgb(148, 232, 244);
+    }
+
     /* topbar */
 
     .topbar {
         flex-direction: row;
         justify-content: space-between;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
     }
 
     .topbar-header {
@@ -241,6 +243,11 @@ footer {
 
     
     /* footer */
+
+    footer {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
  
     .hori-top-spacer {
         padding: 10px 20px 10px 20px;
