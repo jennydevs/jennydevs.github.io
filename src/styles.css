@@ -89,8 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 .img-border {
     content: url(/data/decor/border_mobile.png);
     width: 100%;
-    /* border: 2px solid rgb(255, 220, 80); */
-    /* border-radius: 8px; */
 }
 
 /* error */
@@ -103,25 +101,22 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
 }
 
-/* menu */
+/* Topbar */
 
 .topbar {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: white;
-}
-
-.topbar-link {
-    color: rgb(30, 44, 149);
+    padding-top: 10px;
 }
 
 .topbar-link-holder {
     display: inline-block;
 }
 
-.topbar-nav {
-    padding-bottom: 10px;
+.topbar-link {
+    color: rgb(30, 44, 149);
 }
 
 .topbar-link-spacer {
@@ -133,6 +128,14 @@ h1, h2, h3, h4, h5, h6 {
     content: url("./data/decor/spacing_clover.jpg");
 }
 
+.logo {
+    vertical-align: middle;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* header in topbar */
+
 .header-title {
     display:inline-block;
     vertical-align: middle;
@@ -143,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-image {
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     height: 64px;
     object-fit: contain;
@@ -244,12 +247,19 @@ footer {
         padding-left: 50px;
     }
 
-    .topbar-nav {
+    .topbar-links {
         align-self: flex-end;
         padding-right: 50px;
     }
 
+    .topbar-link-list {
+        padding-left: 0;
+    }
     
+    .topbar-social-link-list {
+        text-align: right;
+    }
+
     /* footer */
 
     footer {
