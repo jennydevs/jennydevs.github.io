@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
-
 import Topbar from '../components/Topbar.jsx';
 import Footer from '../components/Footer.jsx';
 
