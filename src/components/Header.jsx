@@ -1,7 +1,7 @@
 function Header({ header_data }) {
     return (
         <header className='topbar-header'>
-            <h1 className='header-words'>{header_data}</h1>
+            <img className='header-image'/><h1 className='header-title'>{header_data}</h1>
         </header>
     );
 }
