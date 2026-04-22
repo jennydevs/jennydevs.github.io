@@ -6,7 +6,7 @@ Title of the game, "Plate, Rush, Serve!" in front of a background with flan and 
 Plate food and serve customers quickly to get the highest score in a conveyor belt style restaurant. Made with Pixelbox.
 https://jennydevs.itch.io/plate-rush-serve
 001
-2025
+2024
 Void Village
 void_village.png
 Two animal villagers standing in front of a house with a flower on the right.
