@@ -143,6 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     paint-order: stroke;
     color: white;
     text-shadow: 5px 4px rgba(106, 0, 255, 0.194);
+    cursor: default;
 }
 
 .header-image {
