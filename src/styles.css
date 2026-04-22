@@ -114,12 +114,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .topbar-link {
     text-decoration: none;
+    color: rgb(30, 44, 149);
+}
+
+.topbar-link-holder {
+    display: inline-block;
 }
 
 .topbar-nav {
-    -webkit-text-stroke: 5px rgb(255,252,178);
-    paint-order: stroke;
-    
+    padding-bottom: 10px;
+}
+
+.topbar-link-spacer {
+    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+    content: url("./data/decor/spacing_clover.jpg");
 }
 
 .header-title {
@@ -169,13 +181,6 @@ footer {
     background-color: rgb(255, 220, 80);
     padding: 10px;
     border-top: 10px solid white;
-}
-
-.hori-top-spacer {
-    display: inline-block;
-    padding: 10px;
-
-    list-style: none;
 }
 
 /* between logo and link */
@@ -256,11 +261,6 @@ footer {
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
- 
-    .hori-top-spacer {
-        padding: 10px 20px 10px 20px;
-    }
-
 
     /* main content */
 
