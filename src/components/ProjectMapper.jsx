@@ -12,7 +12,7 @@ function groupProjects(projects_data) {
 
     for (let i = projects.length - 1; i > -1; i--) {
         grouped_projects.push(projects[i]);
-        if (i % PROJECTS_PER_ROW == 0) {
+        if (i % PROJECTS_PER_ROW === 0) {
             total_grouped_projects.push(grouped_projects);
             grouped_projects = [];
         }

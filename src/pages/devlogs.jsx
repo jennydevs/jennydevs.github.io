@@ -38,7 +38,7 @@ function setupPages(page_groups, curr_page, updatePage) {
     
     for (let i = 0; i < page_groups.length; i++) {
         pages.push(
-            curr_page == i ? <li key={i} className='spacer unactive-link'>{i}</li> :
+            curr_page === i ? <li key={i} className='spacer unactive-link'>{i}</li> :
             <li key={i} className='spacer active-link' onClick={() => {updatePage(i)}}>{i}</li>
         );
     }
@@ -65,12 +65,12 @@ function Pages({groups, curr_page, updatePage, updateList}) {
                 <div className='pagination'>
                     <div style={{display:'flex', alignContent:'space-between'}}>
                         {
-                            curr_page == 0 ? <li className='unactive-link spacer' >&lt;&lt;</li> :
+                            curr_page === 0 ? <li className='unactive-link spacer' >&lt;&lt;</li> :
                             <li className='active-link spacer' onClick={() => {updatePage(Math.max(0, curr_page - 1))}}>&lt;&lt;</li>
                         }
                         {   setupPages(groups, curr_page, updatePage)   }
                         {
-                            curr_page == groups.length - 1 ? <li className='unactive-link spacer' >&gt;&gt;</li> :
+                            curr_page === groups.length - 1 ? <li className='unactive-link spacer' >&gt;&gt;</li> :
                             <li className='active-link spacer' onClick={() => {updatePage(Math.min(curr_page + 1, groups.length - 1))}}>&gt;&gt;</li>
                         }
                     </div>
@@ -113,9 +113,9 @@ function Devlogs() {
         <div className='container'>
             <Topbar header_data={'Devlogs'}/>
             <div className='content'>
-                <img className='img-border'/>
+                <img className='img-border' alt="" />
                 {
-                    log_list_groups.length == 0 ? <div>Loading...</div> :
+                    log_list_groups.length === 0 ? <div>Loading...</div> :
                         <>
                             <DevlogsList list={curr_list} />
                             <hr />
@@ -127,7 +127,7 @@ function Devlogs() {
                             />
                         </>  
                 }
-                <img className='img-border'/>
+                <img className='img-border' alt="" />
             </div>
             <Footer />
         </div>

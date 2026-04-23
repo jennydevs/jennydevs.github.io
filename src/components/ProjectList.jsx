@@ -6,8 +6,6 @@ function separateProjects(project_list) {
     let projects = [];
     let single_project = {};
     const DATA_LINES = 7;
-    
-    let counter = 0;
 
     for (let i = 0; i < project_list.length / DATA_LINES; i++) {
         let offset = DATA_LINES * i;
@@ -19,7 +17,6 @@ function separateProjects(project_list) {
         single_project['description'] = project_list[5 + offset];
         single_project['link'] = project_list[6 + offset];
 
-        counter++;
         projects.push(single_project);
         single_project = {};
     }
@@ -33,15 +30,15 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
     let same_year = false;
 
     for (let i = 0; i < projects.length; i++) {
-        if (year == projects[i]['year']) {
+        if (year === projects[i]['year']) {
             same_year = true;
             year_collection.push(projects[i]);
-        } else if (same_year && year != projects[i]['year']) {
+        } else if (same_year && year !== projects[i]['year']) {
             break;
         }
     }
 
-    if (amt_of_projects == 0) { // all projects for that year
+    if (amt_of_projects === 0) { // all projects for that year
         selected_projects = year_collection;
     } else {
         let counter = 0;
@@ -49,7 +46,7 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
             for (let i = amt_of_projects - 1; i > -1; i--) {
                 selected_projects.push(year_collection[i]);
                 counter++;
-                if (amt_of_projects == counter) {
+                if (amt_of_projects === counter) {
                     break;
                 }
             }
@@ -57,7 +54,7 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
             for (let i = year_collection.length - amt_of_projects; i < year_collection.length; i++) {
                 selected_projects.push(year_collection[i]);
                 counter++;
-                if (amt_of_projects == counter) {
+                if (amt_of_projects === counter) {
                     break;
                 }
             }
@@ -92,7 +89,7 @@ function ProjectList({amt_of_projects, year, oldest_first}) {
     return (
         <div className='column'>
             {
-                projectInfo.length == 0 ? 
+                projectInfo.length === 0 ? 
                 <p className='centered-box'>Loading...</p> : 
                 <ProjectMapper projects_data={ projectInfo }/>
             }
