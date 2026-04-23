@@ -1,8 +1,7 @@
-import * as React from 'react';
-
+import React from 'react';
 import Topbar from '../components/Topbar.jsx';
-import ProjectList from '../components/ProjectList.jsx';
 import Footer from '../components/Footer.jsx';
+import ProjectList from '../components/ProjectList.jsx';
 
 
 function Projects() {
