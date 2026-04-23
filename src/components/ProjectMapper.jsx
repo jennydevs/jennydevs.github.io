@@ -1,8 +1,6 @@
-import * as React from 'react';
-
-/* eslint-disable react/prop-types */
+import React from 'react';
 import { useState } from "react";
-import Project from "./Project.jsx";
+import Project from "../components_storage/Project.jsx";
 
 
 function groupProjects(projects_data) {

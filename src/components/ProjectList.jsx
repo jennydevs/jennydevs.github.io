@@ -1,5 +1,4 @@
-import * as React from 'react';
-
+import React from 'react';
 import { useState, useEffect } from 'react';
 import ProjectMapper from './ProjectMapper.jsx';
 
