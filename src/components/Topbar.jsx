@@ -1,5 +1,5 @@
-import * as React from 'react';
-
+import React from 'react';
+import { Link } from 'gatsby';
 import Header from '../components/Header.jsx';
 import ImgLogo from './ImgLogo.jsx';
 

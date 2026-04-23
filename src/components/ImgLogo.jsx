@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 function ImgLogo({logo_name}) {
     const IMAGE_PATH = "./data/decor/";

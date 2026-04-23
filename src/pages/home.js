@@ -1,10 +1,12 @@
 import React from 'react';
+import Topbar from '../components/Topbar';
+import Footer from '../components/Footer';
 import '../styles.css';
 
 function Home() {
     return (
         <div className="container">
-            {/* <Topbar header_data={'jennydevs'}/> */}
+            <Topbar header_data={'jennydevs'}/>
             <div className='content'>
                 <img className='img-border'/>
                 <h1>Hello there!</h1>
@@ -17,7 +19,7 @@ function Home() {
                 {/* <ProjectList amt_of_projects={3} year={'2025'} oldest_first={false}/> */}
                 <img className='img-border'/>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }
