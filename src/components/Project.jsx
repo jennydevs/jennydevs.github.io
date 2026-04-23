@@ -1,8 +1,5 @@
-import * as React from 'react';
-
-/* eslint-disable react/prop-types */
+import React from 'react';
 import { useState } from "react";
-
 
 function Project({ project_data }) {
     const IMG_PATH = "/data/projects/images/";

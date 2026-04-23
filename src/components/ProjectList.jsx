@@ -2,7 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import ProjectMapper from './ProjectMapper.jsx';
 
-
 function separateProjects(project_list) {
     let projects = [];
     let single_project = {};

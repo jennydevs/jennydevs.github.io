@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import Project from "../components_storage/Project.jsx";
+import Project from './Project.jsx';
 
 
 function groupProjects(projects_data) {
