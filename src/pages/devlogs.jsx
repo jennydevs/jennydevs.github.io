@@ -1,9 +1,8 @@
-import * as React from 'react';
-
+import React from 'react';
 import { useState, useEffect } from 'react';
 import Topbar from '../components/Topbar.jsx';
-import LogSummary from '../components/LogSummary.jsx';
 import Footer from '../components/Footer.jsx';
+import LogSummary from '../components/LogSummary.jsx';
 
 
 function divideContent(logs_list) {
@@ -107,7 +106,7 @@ function Devlogs() {
     }, []);
 
     useEffect(() => {
-        scroll(0,0);
+        // scroll(0,0);
     }, [curr_page]);
     
     return (

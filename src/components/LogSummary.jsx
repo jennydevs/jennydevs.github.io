@@ -1,8 +1,6 @@
-import * as React from 'react';
-
-/* eslint-disable react/prop-types */
+import React from 'react';
 import { useState, useEffect } from 'react';
-
+import { Link } from 'gatsby';
 
 function parseLogData(text_data) {
     const line_length = 4;
@@ -53,7 +51,7 @@ function LogSummary({log_id}) {
                     <div className="log-summary">
                         <Link to={`log/${log_id}`}><h2>{log.title}</h2></Link>
                         <p><em>Edited:</em> {log.edit_date} - <em>Created:</em> {log.creation_date}</p>
-                        <Markdown>{log.summary}</Markdown>
+                        <p>{log.summary}</p>
                     </div>
             }
         </>
