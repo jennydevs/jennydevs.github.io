@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import * as React from 'react';
+
 import Header from '../components/Header.jsx';
 import ImgLogo from './ImgLogo.jsx';
 
@@ -11,29 +12,29 @@ function Topbar({header_data}) {
                 <nav>
                     <ul className='topbar-link-list topbar-social-link-list'>
                         <li className='topbar-link-holder'>
-                            <Link to={'https://jennydevs.itch.io/'}>
+                            <a href='https://jennydevs.itch.io/'>
                                 <ImgLogo logo_name={"itch"} className='logo-link' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='topbar-link-holder'>
-                            <Link to={'https://github.com/jennydevs'}>
+                            <a href='https://github.com/jennydevs'>
                                 <ImgLogo logo_name={"github"} className='logo-link'/>
-                            </Link>
+                            </a>
                         </li>
                         <li className='topbar-link-holder'>
-                            <Link to={'https://bsky.app/profile/jennydevs.bsky.social'}>
+                            <a href='https://bsky.app/profile/jennydevs.bsky.social'>
                                 <ImgLogo logo_name={"bluesky"} className='logo-link'/>
-                            </Link>
+                            </a>
                         </li>
                         <li className='topbar-link-holder'>
-                            <Link to={'https://mastodon.gamedev.place/@jennydevs'}>
+                            <a href='https://mastodon.gamedev.place/@jennydevs'>
                                 <ImgLogo logo_name={"mastodon"} className='logo-link'/>
-                            </Link>
+                            </a>
                         </li>
                         <li className='topbar-link-holder'>
-                            <Link to={'https://www.youtube.com/@jennydevs'}>
+                            <a href='https://www.youtube.com/@jennydevs'>
                                 <ImgLogo logo_name={"youtube"} className='logo-link'/>
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </nav>

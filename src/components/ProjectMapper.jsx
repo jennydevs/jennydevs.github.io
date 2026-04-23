@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import Project from "./Project.jsx";

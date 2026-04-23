@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 import { useState, useEffect } from 'react';
 import Topbar from '../components/Topbar.jsx';
 import LogSummary from '../components/LogSummary.jsx';

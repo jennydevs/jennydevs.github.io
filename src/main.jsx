@@ -1,40 +1,22 @@
+import React from 'react';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Router } from '@reach/router';
 import './styles.css';
-import Log from './pages/Log.jsx';
 import Home from './pages/Home.jsx';
 import Projects from './pages/Projects.jsx';
 import Devlogs from './pages/Devlogs.jsx';
+import Log from './pages/Log.jsx';
 import Error from './pages/Error.jsx';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <Error />,
-  },
-  {
-    path: "projects",
-    element: <Projects />,
-    errorElement: <Error />,
-  },
-  {
-    path: "devlogs",
-    element: <Devlogs />,
-    errorElement: <Error />,
-  },
-  {
-    path: "devlogs/log/:log_id",
-    element: <Log />,
-    errorElement: <Error />,
-  }
-], {
-  basename: '/',
-});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Route path='/' component={Home} />
+      <Route path='/projects' component={Projects} />
+      <Route path='/devlogs' component={Devlogs} />
+      <Route path='/devlogs/log/:log_id' component={Log} />
+    </Router>
   </StrictMode>,
 )

@@ -1,4 +1,4 @@
-import { useRouteError, useNavigate } from 'react-router-dom';
+import * as React from 'react';
 
 
 function Error() {
