@@ -17,7 +17,7 @@ function Home() {
                 <hr/>
                 <h1>Recent Projects</h1>
                 <img className='img-border'/>
-                <ProjectList amt_of_projects={3} year={'2025'} oldest_first={false}/>
+                <ProjectList amt_of_projects={3} year={2025} oldest_first={false}/>
                 <img className='img-border'/>
             </div>
             <Footer />
