@@ -1,40 +1,14 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import ProjectMapper from './ProjectMapper.jsx';
-
-function separateProjects(project_list) {
-    let projects = [];
-    let single_project = {};
-    const DATA_LINES = 7;
-
-    for (let i = 0; i < project_list.length / DATA_LINES; i++) {
-        let offset = DATA_LINES * i;
-        single_project['key'] = project_list[0 + offset];
-        single_project['year'] = project_list[1 + offset];
-        single_project['title'] = project_list[2 + offset];
-        single_project['img_name'] = project_list[3 + offset];
-        single_project['img_alt'] = project_list[4 + offset];
-        single_project['description'] = project_list[5 + offset];
-        single_project['link'] = project_list[6 + offset];
-
-        projects.push(single_project);
-        single_project = {};
-    }
-    
-    return projects;
-}
+import { useStaticQuery, graphql } from 'gatsby';
+import Project from './Project.jsx';
 
 function filterProjects(projects, amt_of_projects, year, oldest_first) {
     let selected_projects = [];
     const year_collection = [];
-    let same_year = false;
 
     for (let i = 0; i < projects.length; i++) {
-        if (year === projects[i]['year']) {
-            same_year = true;
+        if (Number(year) === projects[i]['year']) {
             year_collection.push(projects[i]);
-        } else if (same_year && year !== projects[i]['year']) {
-            break;
         }
     }
 
@@ -64,37 +38,62 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
     return selected_projects;
 }
 
-function ProjectList({amt_of_projects, year, oldest_first}) {
-    const PROJECTS_PATH = "/data/projects/projects_info.txt";
-    const [projectInfo, setProjectInfo] = useState([]);
-    
-    useEffect(() => {
-        async function getProjectsInfo() {
-            await fetch(PROJECTS_PATH)
-            .then((response)=> {
-                return response.text();
-            })
-            .then((project_list) => {
-                let projects = separateProjects(project_list.split("\n"));
-                setProjectInfo(filterProjects(projects, amt_of_projects, year, oldest_first));
-            })
-            .catch((error) => {
-                console.error(error);
-            });
-        }
+function groupProjects(projects_data) {
+    const PROJECTS_PER_ROW = 3;
+    let total_grouped_projects = [];
+    let grouped_projects = [];
 
-        getProjectsInfo();
-    }, []);
+    const projects = projects_data;
+
+    for (let i = projects.length - 1; i > -1; i--) {
+        grouped_projects.push(projects[i]);
+        if (i % PROJECTS_PER_ROW === 0) {
+            total_grouped_projects.push(grouped_projects);
+            grouped_projects = [];
+        }
+    }
+    
+    return total_grouped_projects;
+}
+
+function ProjectList({ amt_of_projects, year, oldest_first }){   
+    const data = useStaticQuery(graphql`
+        query {
+            projectsJson{
+                projects {
+                id
+                year
+                title
+                image_name
+                alt_text
+                description
+                project_link
+                }
+            }
+        }
+    `);
+
+    const projectGroups = groupProjects(
+        filterProjects(
+            data["projectsJson"]["projects"], 
+            amt_of_projects, year, oldest_first
+    ));
 
     return (
         <div className='column'>
             {
-                projectInfo.length === 0 ? 
-                <p className='centered-box'>Loading...</p> : 
-                <ProjectMapper projects_data={ projectInfo }/>
+                projectGroups.map((project_group) => 
+                    <div className="row" key={project_group[0]['id']}>
+                        {
+                            project_group.map((project) => 
+                                <Project key={project['id']} project_id={project['id']} project_data={project}/>
+                            )
+                        }
+                    </div>
+                )
             }
         </div>
-      );
+    );
 }
 
 export default ProjectList;
