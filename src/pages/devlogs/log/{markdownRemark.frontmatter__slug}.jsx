@@ -3,9 +3,7 @@ import { graphql, Link } from 'gatsby';
 import Topbar from '../../../components/Topbar.jsx';
 import Footer from '../../../components/Footer.jsx';
 
-export default function DevlogTemplate({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
+export default function DevlogTemplate({ data }) { // this prop will be injected by the GraphQL query below.
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark;
   return (
