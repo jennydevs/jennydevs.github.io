@@ -2,12 +2,29 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Project from './Project.jsx';
 
+import img_1 from '../pages/content/projects/images/void_village.png';
+import img_2 from '../pages/content/projects/images/meddlesome_dreams.png';
+import img_3 from '../pages/content/projects/images/plate_logo.png';
+import img_4 from '../pages/content/projects/images/prepare_for_takeoff.png';
+import img_5 from '../pages/content/projects/images/no_fish_no_refund.png';
+import img_6 from '../pages/content/projects/images/whiskers_farm.png';
+
+const pictures = {
+    "void_village.png": img_1,
+    "meddlesome_dreams.png": img_2,
+    "plate_logo.png": img_3,
+    "prepare_for_takeoff.png": img_4,
+    "no_fish_no_refund.png": img_5,
+    "whiskers_farm.png": img_6
+};
+
 function filterProjects(projects, amt_of_projects, year, oldest_first) {
     let selected_projects = [];
     const year_collection = [];
 
     for (let i = 0; i < projects.length; i++) {
         if (Number(year) === projects[i]['year']) {
+            projects[i]["image_file"] = pictures[projects[i]["image_name"]];
             year_collection.push(projects[i]);
         }
     }
