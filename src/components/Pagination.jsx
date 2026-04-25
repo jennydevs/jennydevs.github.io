@@ -1,43 +1,36 @@
 import React from "react";
-import { useEffect } from "react";
 import { Link } from "gatsby";
 
-// function setupPages(page_groups, curr_page, updatePage) {
-//     let pages = [];
-    
-//     for (let i = 0; i < page_groups.length; i++) {
-//         pages.push(
-//             curr_page === i ? <li key={i} className='spacer unactive-link'>{i}</li> :
-//             <li key={i} ><Link className='spacer active-link' onClick={() => {updatePage(i)}}>{i}</Link></li>
-//         );
-//     }
+function setupPages(curr_page, updatePage, pages_length) {
+    let pages = [];
+    for (let i = 0; i < pages_length; i++) {
+        pages.push(
+            curr_page === i + 1 ? <li key={i} className='spacer unactive-link'>{i}</li> :
+            <li key={i} ><Link className='spacer active-link' to={i === 0? "/devlogs" : `/devlogs/${i + 1}`} onClick={() => {updatePage(i)}}>{i}</Link></li>
+        );
+    }
 
-//     return pages;
-// }
+    return pages;
+}
 
-
-function Pagination({groups, curr_page, updatePage, updateList}) {
-    // useEffect(() => {
-    //     updateList(groups[curr_page]);
-    // }, [curr_page]);
-
+function Pagination({curr_page, updatePage, pages_length}) {
     return (
         <>
-            {/* {
+            {
                 <div className='pagination'>
                     <div style={{display:'flex', alignContent:'space-between'}}>
                         {
-                            curr_page === 0 ? <li className='unactive-link spacer' >&lt;&lt;</li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.max(0, curr_page - 1))}}>&lt;&lt;</li>
+                            curr_page === 1 ? <li className='unactive-link spacer'>&lt;&lt;</li> :
+                            <li className='active-link spacer'><Link to={curr_page - 1 === 1? "/devlogs" : `/devlogs/${curr_page - 1}`} onClick={() => {updatePage(Math.max(1, curr_page))}}>&lt;&lt;</Link></li>
                         }
-                        {   setupPages(groups, curr_page, updatePage)   }
+                        { setupPages(curr_page, updatePage, pages_length) }
                         {
-                            curr_page === groups.length - 1 ? <li className='unactive-link spacer' >&gt;&gt;</li> :
-                            <li className='active-link spacer' onClick={() => {updatePage(Math.min(curr_page + 1, groups.length - 1))}}>&gt;&gt;</li>
+                            curr_page === pages_length? <li className='unactive-link spacer' >&gt;&gt;</li> :
+                            <li className='active-link spacer'><Link to={curr_page === pages_length? `/devlogs/${pages_length}` : `/devlogs/${curr_page + 1}`} onClick={() => {updatePage(Math.min(1, pages_length + 1))}}>&gt;&gt;</Link></li>
                         }
                     </div>
                 </div>
-            } */}
+            }
         </>
     );
 }

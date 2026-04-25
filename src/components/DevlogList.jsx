@@ -1,16 +1,14 @@
 import React from "react";
-import { useState} from "react";
+import { useState } from "react";
 import { graphql } from "gatsby";
 import Topbar from './Topbar.jsx';
 import Footer from './Footer.jsx';
 import DevlogSummary from "./DevlogSummary.jsx";
 import Pagination from "./Pagination.jsx";
 
-function DevlogList({ data }) {
-    const { allMarkdownRemark } = data;
-    const frontmatter_list = allMarkdownRemark.edges;
-
-    const [curr_page, setCurrPage] = useState(0);
+function DevlogList({ data, pageContext: { PAGES_LENGTH, currentPage }}) {
+    const frontmatter_list = data.allMarkdownRemark.edges;
+    const [curr_page, setCurrPage] = useState(currentPage);
 
     return (
         <div className='container'>
@@ -23,7 +21,7 @@ function DevlogList({ data }) {
                     )
                 }
                 <hr/>
-                <Pagination curr_page={curr_page}  updatePage={setCurrPage} />
+                <Pagination curr_page={curr_page}  updatePage={setCurrPage} pages_length={PAGES_LENGTH} />
                 <img className='img-border' alt="" />
             </div>
             <Footer />
