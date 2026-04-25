@@ -44,6 +44,7 @@ hr {
 
 a {
     color: #f1760b;
+    cursor: pointer;
 }
 
 a:hover {
