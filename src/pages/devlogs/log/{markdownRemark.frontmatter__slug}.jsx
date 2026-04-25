@@ -9,9 +9,9 @@ export default function DevlogTemplate({ data }) { // this prop will be injected
   return (
       <div className='container'>
         <Topbar header_data={'Devlog'} />
-        <div className="content">
-          <img className='img-border' alt="" />
-          <div className="log">
+        <div className='content'>
+          <img className='img-border' alt='' />
+          <div className='log'>
             <article>
               <h1>{frontmatter.title}</h1>
               <p>{frontmatter.date} - (Updated {frontmatter.edit_date})</p>
@@ -20,9 +20,9 @@ export default function DevlogTemplate({ data }) { // this prop will be injected
             </article>
           </div>
           <div style={{textAlign:'center', paddingBottom:'20px'}}>
-            <Link to={"/devlogs"}>To devlogs</Link>
+            <Link to={'/devlogs'}>To devlogs</Link>
           </div>
-          <img className='img-border' alt="" />
+          <img className='img-border' alt='' />
         </div>
         <Footer />
       </div>

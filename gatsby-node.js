@@ -21,7 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     `);
 
     if (result.errors) {
-        reporter.panicOnBuild("Error while running GraphQL query...");
+        reporter.panicOnBuild('Error while running GraphQL query...');
         return;
     }
 
@@ -31,7 +31,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     for (let i = 0; i < PAGES_LENGTH; i++) {
         createPage({
             path: i === 0 ? `/devlogs` : `devlogs/${i + 1}`, // skip /devlogs/1
-            component: path.resolve("./src/components/DevlogList.jsx"),
+            component: path.resolve('./src/components/DevlogList.jsx'),
             context: {
                 limit: MAX_LIST_LENGTH,
                 skip: i * MAX_LIST_LENGTH,

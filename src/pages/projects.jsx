@@ -9,14 +9,15 @@ function Projects() {
         <div className='container'>
             <Topbar header_data={'Projects'}/>
             <div className='content'>
-                <h1>2025</h1>
-                <img className='img-border' alt="" />
-                <ProjectList amt_of_projects={0} year={2025} oldest_first={false}/>
+                <img className='img-border' alt='' />
+                <h1 style={{'textAlign': 'center'}}>2025</h1>
                 <hr/>
-                <h1>2024</h1>
-                <img className='img-border' alt="" />
+                <ProjectList amt_of_projects={0} year={2025} oldest_first={false}/>
+                <img className='img-border' alt='' />
+                <h1 style={{'textAlign': 'center'}}>2024</h1>
+                <hr/>
                 <ProjectList amt_of_projects={0} year={2024} oldest_first={false}/>
-                <img className='img-border' alt="" />
+                <img className='img-border' alt='' />
             </div>
             <Footer />
         </div>

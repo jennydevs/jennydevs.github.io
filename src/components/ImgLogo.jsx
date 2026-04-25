@@ -1,13 +1,13 @@
 import React from 'react';
 
 function ImgLogo({logo_name}) {
-    const IMAGE_PATH = "./data/decor/";
+    const IMAGE_PATH = './data/decor/';
     const IMG_LOGOS = {
-        "bluesky": "bluesky_logo.jpg",
-        "github": "github_logo.jpg",
-        "itch": "itch_logo.jpg",
-        "mastodon": "mastodon_logo.jpg",
-        "youtube": "youtube_logo.jpg"
+        'bluesky': 'bluesky_logo.jpg',
+        'github': 'github_logo.jpg',
+        'itch': 'itch_logo.jpg',
+        'mastodon': 'mastodon_logo.jpg',
+        'youtube': 'youtube_logo.jpg'
     };
 
     return (

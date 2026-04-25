@@ -10,12 +10,12 @@ import img_5 from '../pages/content/projects/images/no_fish_no_refund.png';
 import img_6 from '../pages/content/projects/images/whiskers_farm.png';
 
 const pictures = {
-    "void_village.png": img_1,
-    "meddlesome_dreams.png": img_2,
-    "plate_logo.png": img_3,
-    "prepare_for_takeoff.png": img_4,
-    "no_fish_no_refund.png": img_5,
-    "whiskers_farm.png": img_6
+    'void_village.png': img_1,
+    'meddlesome_dreams.png': img_2,
+    'plate_logo.png': img_3,
+    'prepare_for_takeoff.png': img_4,
+    'no_fish_no_refund.png': img_5,
+    'whiskers_farm.png': img_6
 };
 
 function filterProjects(projects, amt_of_projects, year, oldest_first) {
@@ -23,8 +23,8 @@ function filterProjects(projects, amt_of_projects, year, oldest_first) {
     const year_collection = [];
 
     for (let i = 0; i < projects.length; i++) {
-        if (Number(year) === projects[i]['year']) {
-            projects[i]["image_file"] = pictures[projects[i]["image_name"]];
+        if (Number(year) === projects[i].year) {
+            projects[i].image_file = pictures[projects[i].image_name];
             year_collection.push(projects[i]);
         }
     }
@@ -92,7 +92,7 @@ function ProjectList({ amt_of_projects, year, oldest_first }){
 
     const projectGroups = groupProjects(
         filterProjects(
-            data["projectsJson"]["projects"], 
+            data.projectsJson.projects, 
             amt_of_projects, year, oldest_first
     ));
 
@@ -100,10 +100,10 @@ function ProjectList({ amt_of_projects, year, oldest_first }){
         <div className='column'>
             {
                 projectGroups.map((project_group) => 
-                    <div className="row" key={project_group[0]['id']}>
+                    <div className='row' key={project_group[0].id}>
                         {
                             project_group.map((project) => 
-                                <Project key={project['id']} project_id={project['id']} project_data={project}/>
+                                <Project key={project.id} project_id={project.id} project_data={project}/>
                             )
                         }
                     </div>

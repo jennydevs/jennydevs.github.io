@@ -1,10 +1,10 @@
-import React from "react";
-import { useState } from "react";
-import { graphql } from "gatsby";
+import React from 'react';
+import { useState } from 'react';
+import { graphql } from 'gatsby';
 import Topbar from './Topbar.jsx';
 import Footer from './Footer.jsx';
-import DevlogSummary from "./DevlogSummary.jsx";
-import Pagination from "./Pagination.jsx";
+import DevlogSummary from './DevlogSummary.jsx';
+import Pagination from './Pagination.jsx';
 
 function DevlogList({ data, pageContext: { PAGES_LENGTH, currentPage }}) {
     const frontmatter_list = data.allMarkdownRemark.edges;
@@ -14,15 +14,15 @@ function DevlogList({ data, pageContext: { PAGES_LENGTH, currentPage }}) {
         <div className='container'>
             <Topbar header_data={'Devlogs'}/>
             <div className='content'>
-                <img className='img-border' alt="" />
+                <img className='img-border' alt='' />
                 {
                     frontmatter_list.map((node) => 
-                        <DevlogSummary key={node["node"]["frontmatter"]["slug"]} devlog_data={node["node"]["frontmatter"]}/>
+                        <DevlogSummary key={node.node.frontmatter.slug} devlog_data={node.node.frontmatter}/>
                     )
                 }
                 <hr/>
                 <Pagination curr_page={curr_page}  updatePage={setCurrPage} pages_length={PAGES_LENGTH} />
-                <img className='img-border' alt="" />
+                <img className='img-border' alt='' />
             </div>
             <Footer />
         </div>
