@@ -111,6 +111,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
+.topbar-link-list {
+        padding-left: 0;
+}
+
 .topbar-link-holder {
     display: inline-block;
 }
@@ -150,8 +154,9 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: middle;
     height: 64px;
+    padding-right: 15px;
     object-fit: contain;
-    /* content: url('./data/decor/jennydevs_header_image.jpg'); */
+    content: url('./decor/jennydevs_header_image.png');
 }
 
 /* main content area */
@@ -251,10 +256,6 @@ footer {
     .topbar-links {
         align-self: flex-end;
         padding-right: 50px;
-    }
-
-    .topbar-link-list {
-        padding-left: 0;
     }
     
     .topbar-social-link-list {
