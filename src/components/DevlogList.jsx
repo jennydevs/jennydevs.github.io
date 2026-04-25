@@ -1,9 +1,9 @@
 import React from "react";
 import { useState} from "react";
 import { graphql } from "gatsby";
-import Topbar from '../components/Topbar.jsx';
-import Footer from '../components/Footer.jsx';
-import DevlogSummary from "./DevlogSummary";
+import Topbar from './Topbar.jsx';
+import Footer from './Footer.jsx';
+import DevlogSummary from "./DevlogSummary.jsx";
 import Pagination from "./Pagination.jsx";
 
 function DevlogList({ data }) {
