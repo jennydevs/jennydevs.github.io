@@ -1,17 +1,22 @@
 import React from 'react';
 
+import youtube from '../decor/youtube_logo.png';
+import bluesky from '../decor/bluesky_logo.png';
+import mastodon from '../decor/mastodon_logo.png';
+import github from '../decor/github_logo.png';
+import itchio from '../decor/itchio_logo.png';
+
 function ImgLogo({logo_name}) {
-    const IMAGE_PATH = './data/decor/';
     const IMG_LOGOS = {
-        'bluesky': 'bluesky_logo.jpg',
-        'github': 'github_logo.jpg',
-        'itch': 'itch_logo.jpg',
-        'mastodon': 'mastodon_logo.jpg',
-        'youtube': 'youtube_logo.jpg'
+        'bluesky': bluesky,
+        'github': github,
+        'itch': itchio,
+        'mastodon': mastodon,
+        'youtube': youtube
     };
 
     return (
-        <img className='logo' src={`${IMAGE_PATH}${IMG_LOGOS[logo_name]}`} />
+        <img className='logo' src={IMG_LOGOS[logo_name]} />
     );
 }
 
