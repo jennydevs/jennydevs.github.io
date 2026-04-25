@@ -41,11 +41,11 @@ function Topbar({header_data}) {
                     <ul className='topbar-link-list'>
                         <li className='topbar-link-holder'>
                             <Link to={'/'} className='topbar-link'>Home</Link>
-                            <img className='topbar-link-spacer' alt='' />
+                            <img className='topbar-link-spacer yellow-tulip' alt='' />
                         </li>
                         <li className='topbar-link-holder'>
                             <Link to={'/projects'} className='topbar-link'>Projects</Link>
-                            <img className='topbar-link-spacer' alt='' />
+                            <img className='topbar-link-spacer blue-tulip' alt='' />
                         </li>
                         <li className='topbar-link-holder'>
                             <Link to={'/devlogs'} className='topbar-link'>Devlogs</Link>

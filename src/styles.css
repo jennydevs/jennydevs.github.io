@@ -129,7 +129,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 16px;
     width: 16px;
     object-fit: contain;
-    /* content: url('./data/decor/spacing_clover.jpg'); */
+}
+
+.yellow-tulip {
+    content: url('./decor/tulip_yellow.png');
+}
+
+.blue-tulip {
+    content: url('./decor/tulip_blue.png');
 }
 
 .logo {
