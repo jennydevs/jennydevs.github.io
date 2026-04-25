@@ -10,11 +10,11 @@ function Projects() {
             <Topbar header_data={'Projects'}/>
             <div className='content'>
                 <img className='img-border' alt='' />
-                <h1 style={{'textAlign': 'center'}}>2025</h1>
+                <h1 className='outlined-header' style={{'textAlign': 'center'}}>2025</h1>
                 <hr/>
                 <ProjectList amt_of_projects={0} year={2025} oldest_first={false}/>
                 <img className='img-border' alt='' />
-                <h1 style={{'textAlign': 'center'}}>2024</h1>
+                <h1 className='outlined-header' style={{'textAlign': 'center'}}>2024</h1>
                 <hr/>
                 <ProjectList amt_of_projects={0} year={2024} oldest_first={false}/>
                 <img className='img-border' alt='' />

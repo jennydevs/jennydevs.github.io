@@ -13,7 +13,7 @@ export default function DevlogTemplate({ data }) { // this prop will be injected
           <img className='img-border' alt='' />
           <div className='log'>
             <article>
-              <h1>{frontmatter.title}</h1>
+              <h1 className='outlined-header'>{frontmatter.title}</h1>
               <p>{frontmatter.date} - (Updated {frontmatter.edit_date})</p>
               <hr />
               <div dangerouslySetInnerHTML={{ __html: html }} />
