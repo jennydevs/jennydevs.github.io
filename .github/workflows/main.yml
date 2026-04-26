@@ -5,6 +5,9 @@ on:
   push:
     branches: ['main']
 
+env:
+  NPM_CONFIG_LEGACY_PEER_DEPS: true
+
   # Allows you to run workflow manually from Actions tab
   workflow_dispatch:
 
