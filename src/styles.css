@@ -31,7 +31,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(255, 220, 80);
+    background-color: rgb(148, 232, 244);
     color: rgb(30, 44, 149);
 
     font-size: 16px;
@@ -44,6 +44,7 @@ hr {
 
 a {
     color: #f1760b;
+    cursor: pointer;
 }
 
 a:hover {
@@ -57,6 +58,12 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'mini wakuwaku', Arial, system-ui;
+}
+
+.outlined-header {
+    -webkit-text-stroke: 5px rgb(30, 44, 149);
+    paint-order: stroke;
+    color: white;
 }
 
 /* pagination */
@@ -87,10 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 /* color divider */
 
 .img-border {
-    content: url(/data/decor/border_mobile.png);
+    content: url(./decor/border_mobile.png);
     width: 100%;
-    /* border: 2px solid rgb(255, 220, 80); */
-    /* border-radius: 8px; */
 }
 
 /* error */
@@ -103,33 +108,72 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
 }
 
-/* menu */
+/* Topbar */
 
 .topbar {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(255, 220, 80);
-    border-bottom: 10px solid white;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.topbar-link-list {
+        padding-left: 0;
+}
+
+.topbar-link-holder {
+    display: inline-block;
 }
 
 .topbar-link {
-    text-decoration: none;
+    color: rgb(30, 44, 149);
 }
 
-.topbar-nav {
-    -webkit-text-stroke: 5px rgb(255,252,178);
+.topbar-link-spacer {
+    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
+
+.yellow-tulip {
+    content: url('./decor/tulip_yellow.png');
+}
+
+.blue-tulip {
+    content: url('./decor/tulip_blue.png');
+}
+
+.logo {
+    vertical-align: middle;
+    width: 23px;
+    padding-left: 5px;
+    padding-right: 5px;
+    object-fit: contain;
+}
+
+/* header in topbar */
+
+.header-title {
+    display:inline-block;
+    vertical-align: middle;
+    -webkit-text-stroke: 5px rgb(30, 44, 149);
     paint-order: stroke;
-    
+    color: white;
+    text-shadow: 5px 4px rgba(106, 0, 255, 0.194);
+    cursor: default;
 }
 
-.header-words {
-    font-size: 30px; 
-    -webkit-text-stroke: 5px rgb(255,252,178);
-    paint-order: stroke;
+.header-image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 64px;
+    padding-right: 15px;
+    object-fit: contain;
+    content: url('./decor/jennydevs_header_image.png');
 }
-                    
-
 
 /* main content area */
 
@@ -161,13 +205,6 @@ footer {
     background-color: rgb(255, 220, 80);
     padding: 10px;
     border-top: 10px solid white;
-}
-
-.hori-top-spacer {
-    display: inline-block;
-    padding: 10px;
-
-    list-style: none;
 }
 
 /* between logo and link */
@@ -219,10 +256,6 @@ footer {
 /* landscape format */
 
 @media screen and (min-width: 50em) {
-    body {
-        background-color: rgb(148, 232, 244);
-    }
-
     /* topbar */
 
     .topbar {
@@ -233,26 +266,24 @@ footer {
     }
 
     .topbar-header {
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
-    .topbar-nav {
+    .topbar-links {
         align-self: flex-end;
         padding-right: 50px;
     }
-
     
+    .topbar-social-link-list {
+        text-align: right;
+    }
+
     /* footer */
 
     footer {
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
- 
-    .hori-top-spacer {
-        padding: 10px 20px 10px 20px;
-    }
-
 
     /* main content */
 
@@ -269,7 +300,7 @@ footer {
     /* color divider */
 
     .img-border {
-        content: url(/data/decor/border_rounded.png);
+        content: url(./decor/border_rounded.png);
     }
 
     /* projects */

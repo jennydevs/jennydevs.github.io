@@ -1,7 +1,10 @@
+import React from 'react';
+import { Link } from 'gatsby';
+
 function Header({ header_data }) {
     return (
         <header className='topbar-header'>
-            <h1 className='header-words'>{header_data}</h1>
+            <Link to='/'><img className='header-image' alt='A blushing bun.' /></Link><h1 className='header-title'>{header_data}</h1>
         </header>
     );
 }

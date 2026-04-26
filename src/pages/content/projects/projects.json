@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": "000",
+            "year": 2024,
+            "title": "Plate, Rush, Serve!",
+            "image_name": "plate_logo.png",
+            "alt_text": "Title of the game, 'Plate, Rush, Serve!' in front of a background with flan and coffee on a table.",
+            "description": "Plate food and serve customers quickly to get the highest score in a conveyor belt style restaurant. Made with Pixelbox.",
+            "project_link": "https://jennydevs.itch.io/plate-rush-serve"
+        },
+        {
+            "id": "001",
+            "year": 2024,
+            "title": "Void Village",
+            "image_name": "void_village.png",
+            "alt_text": "Two animal villagers standing in front of a house with a flower on the right.",
+            "description": "A small experience where you have conversations with villagers living in the middle of nowhere. LittleJS Game Jam submission.",
+            "project_link": "https://jennydevs.itch.io/void-village"
+        },
+        {
+            "id": "002",
+            "year": 2025,
+            "title": "Whisker's Farm",
+            "image_name": "whiskers_farm.png",
+            "alt_text": "The back of a cat facing an ominous forest that fades aways into darkness.",
+            "description": "Short horror farming RPG in your small hometown with a suspicious forest. Farm Jam submission, made with Godot.",
+            "project_link": "https://jennydevs.itch.io/whiskers-farm"
+        },
+        {
+            "id": "003",
+            "year": 2025,
+            "title": "Prepare for Takeoff!",
+            "image_name": "prepare_for_takeoff.png",
+            "alt_text": "Three buns being carried by a winged serpent as they are ready to takeoff from the dock.",
+            "description": "A rendered 3D scene of three buns preparing to takeoff on a winged serpent. 3D Modelling Jam submission, made with Blender.",
+            "project_link": "https://jennydevs.itch.io/prepare-for-takeoff"
+        },
+        {
+            "id": "004",
+            "year": 2025,
+            "title": "Meddlesome Dreams",
+            "image_name": "meddlesome_dreams.png",
+            "alt_text": "A title screen with the words 'Meddlesome Dreams', and imagery of a shambu creature and a sleepy bun.",
+            "description": "3D retro escape room puzzle game where you're trapped in a dream when you take a nap at the beach! 32BitJam 'Summer Dreams' submission, made with Godot.",
+            "project_link": "https://jennydevs.itch.io/meddlesome-dreams"
+        },
+        {
+            "id": "005",
+            "year": 2025,
+            "title": "No Fish, No Refund!",
+            "image_name": "no_fish_no_refund.png",
+            "alt_text": "A title screen with the words 'No Fish No Refund!', and imagery of some groups of fish swimming to the right.",
+            "description": "A game where you run to the fish store to get the refund you deserve! LOWREZJAM 2025 submission, made with Godot.",
+            "project_link": "https://jennydevs.itch.io/no-fish-no-refund"
+        }
+    ]
+}
