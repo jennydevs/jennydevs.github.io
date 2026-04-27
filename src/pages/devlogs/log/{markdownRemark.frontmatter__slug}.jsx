@@ -44,3 +44,10 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export function Head({ data }) {
+  const header_name = data.markdownRemark.frontmatter.title;
+  return (
+    <title>{header_name}</title>
+  );
+};

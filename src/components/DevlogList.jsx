@@ -49,3 +49,5 @@ export const LogListQuery = graphql`
         }
     }
 `;
+
+export const Head = () => <title>Devlogs</title>;

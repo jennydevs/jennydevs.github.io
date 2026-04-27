@@ -25,3 +25,5 @@ function Projects() {
 }
 
 export default Projects;
+
+export const Head = () => <title>Projects</title>;

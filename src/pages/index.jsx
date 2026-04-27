@@ -25,3 +25,5 @@ function Home() {
 }
 
 export default Home;
+
+export const Head = () => <title>jennydevs</title>;
