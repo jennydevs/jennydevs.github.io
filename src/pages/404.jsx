@@ -23,3 +23,4 @@ function NotFoundPage() {
 
 export default NotFoundPage;
 
+export const Head = () => <title>Error :(</title>;
