@@ -136,4 +136,4 @@ User-agent: YouBot
 User-agent: ZanistaBot
 Disallow: /
 
-Sitemap: https://jennydevs.github.io/sitemap.txt
+Sitemap: https://jennydevs.github.io/sitemap-index.xml
