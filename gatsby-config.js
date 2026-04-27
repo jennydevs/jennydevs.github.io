@@ -36,5 +36,5 @@ module.exports = {
       }
     },
   ],
-  trailingSlash: "ignore"
+  trailingSlash: "never"
 };

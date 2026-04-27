@@ -162,7 +162,8 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-text-stroke: 5px rgb(30, 44, 149);
     paint-order: stroke;
     color: white;
-    text-shadow: 5px 4px rgba(106, 0, 255, 0.194);
+    /* second one covers missing inner shadow reasonably */
+    text-shadow: 5px 4px rgb(223, 206, 252) , 4px 3px rgb(223, 206, 252); 
     cursor: default;
 }
 
@@ -189,14 +190,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     background-color:rgb(255,252,178);
     border-radius: 8px;
+    
 }
 
-/* content chunk */
-
-.half-block {
-    text-align: center;
+.devlog-content {
+    word-break: break-word; /* to break links */
 }
-
 
 /* footer */
 
