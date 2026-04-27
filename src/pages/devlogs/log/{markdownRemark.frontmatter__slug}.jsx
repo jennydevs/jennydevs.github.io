@@ -16,7 +16,7 @@ export default function DevlogTemplate({ data }) { // this prop will be injected
               <h1 className='outlined-header'>{frontmatter.title}</h1>
               <p>{frontmatter.date} - (Updated {frontmatter.edit_date})</p>
               <hr />
-              <div dangerouslySetInnerHTML={{ __html: html }} />
+              <div className='devlog-content' dangerouslySetInnerHTML={{ __html: html }} />
             </article>
           </div>
           <div style={{textAlign:'center', paddingBottom:'20px'}}>

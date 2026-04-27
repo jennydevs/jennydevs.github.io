@@ -190,6 +190,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     background-color:rgb(255,252,178);
     border-radius: 8px;
+    
+}
+
+.devlog-content {
+    word-break: break-word; /* to break links */
 }
 
 /* content chunk */
