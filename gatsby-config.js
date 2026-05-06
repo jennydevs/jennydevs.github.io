@@ -7,7 +7,6 @@ module.exports = {
     siteUrl: `https://jennydevs.github.io`
   },
   plugins: [ 
-    "gatsby-plugin-mdx", 
     "gatsby-transformer-remark", 
     "gatsby-plugin-image", 
     "gatsby-transformer-sharp",
@@ -27,13 +26,7 @@ module.exports = {
       options: {
         plugins: [{ resolve: "gatsby-remark-images" }]
       }
-    },
-    {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        gatsbyRemarkPlugins: [{ resolve: "gatsby-remark-images" }]
-      }
-    },
+    }
   ],
   trailingSlash: "never"
 };
