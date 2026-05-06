@@ -6,8 +6,7 @@ module.exports = {
     title: `jennydevs.github.io`,
     siteUrl: `https://jennydevs.github.io`
   },
-  plugins: [
-    "gatsby-plugin-sitemap", 
+  plugins: [ 
     "gatsby-plugin-mdx", 
     "gatsby-transformer-remark", 
     "gatsby-plugin-image", 
