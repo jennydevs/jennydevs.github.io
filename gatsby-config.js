@@ -24,7 +24,14 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [{ resolve: "gatsby-remark-images" }]
+        plugins: [{ 
+            resolve: "gatsby-remark-images",
+            options: {
+                "backgroundColor": "none",
+                "disableBgImage": true,
+                "disableBgImageOnAlpha": true,
+            }
+         }]
       }
     }
   ],
