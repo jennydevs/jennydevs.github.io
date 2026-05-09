@@ -2,29 +2,21 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Project from './Project.jsx';
 
-import img_1 from '../pages/content/projects/images/void_village.png';
-import img_2 from '../pages/content/projects/images/meddlesome_dreams.png';
-import img_3 from '../pages/content/projects/images/plate_logo.png';
-import img_4 from '../pages/content/projects/images/prepare_for_takeoff.png';
-import img_5 from '../pages/content/projects/images/no_fish_no_refund.png';
-import img_6 from '../pages/content/projects/images/whiskers_farm.png';
+function setupImageList(images) {
+    var imgs = {};
+    for (let i = 0; i < images.length; i++) {
+        imgs[images[i].node.base] = images[i].node.childImageSharp.gatsbyImageData.images.fallback.src;
+    }
+    
+    return imgs;
+}
 
-const pictures = {
-    'void_village.png': img_1,
-    'meddlesome_dreams.png': img_2,
-    'plate_logo.png': img_3,
-    'prepare_for_takeoff.png': img_4,
-    'no_fish_no_refund.png': img_5,
-    'whiskers_farm.png': img_6
-};
-
-function filterProjects(projects, amt_of_projects, year, oldest_first) {
+function filterProjects(image_list, projects, amt_of_projects, year, oldest_first) {
     let selected_projects = [];
     const year_collection = [];
-
     for (let i = 0; i < projects.length; i++) {
         if (Number(year) === projects[i].year) {
-            projects[i].image_file = pictures[projects[i].image_name];
+            projects[i].image_file = image_list[projects[i].image_name];
             year_collection.push(projects[i]);
         }
     }
@@ -73,7 +65,8 @@ function groupProjects(projects_data) {
     return total_grouped_projects;
 }
 
-function ProjectList({ amt_of_projects, year, oldest_first }){   
+function ProjectList({ image_data, amt_of_projects, year, oldest_first }){
+    var images = image_data.allFile.edges;
     const data = useStaticQuery(graphql`
         query {
             projectsJson{
@@ -89,10 +82,12 @@ function ProjectList({ amt_of_projects, year, oldest_first }){
             }
         }
     `);
+    
+    const image_list = setupImageList(images);
 
     const projectGroups = groupProjects(
         filterProjects(
-            data.projectsJson.projects, 
+            image_list, data.projectsJson.projects, 
             amt_of_projects, year, oldest_first
     ));
 
