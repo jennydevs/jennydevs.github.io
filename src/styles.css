@@ -119,11 +119,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topbar-link-list {
-        padding-left: 0;
+    padding-left: 0;
 }
 
 .topbar-link-holder {
     display: inline-block;
+}
+
+.topbar-link-alignment {
+    padding-left: 35px; /* aligning the page links to social media */
 }
 
 .topbar-link {
@@ -144,6 +148,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .blue-tulip {
     content: url('./decor/tulip_blue.png');
+}
+
+.rss-link {
+    content: url('./decor/rss_feed_icon.png');
+    padding-right: 0px;
+    width: 16px;
+    height: 16px;
 }
 
 .logo {
@@ -271,6 +282,10 @@ footer {
     .topbar-links {
         align-self: flex-end;
         padding-right: 50px;
+    }
+    
+    .topbar-link-alignment {
+        padding-left: 0;
     }
     
     .topbar-social-link-list {
