@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:link href="https://jennydevs.github.io/jennydevs-rss.xml" rel="self" type="application/rss+xml" />
+		<language>en</language>
+		<category>Experiments</category>
+		<title>jennydevs</title>
+		<link>https://jennydevs.github.io</link>
+		<description>Jenny's website of projects and devlogs!</description>
+		<item>
+			<title>Papermaking Experiments</title>
+			<link>https://jennydevs.github.io/devlogs/log/2025-11-08-0</link>
+			<guid isPermaLink="false">2025-11-08-0</guid>
+			<pubDate>Sat, 08 Nov 2025 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>November 08, 2025 - (Updated March 29, 2026)</p>
+					<hr />
+					<h2>&gt;&gt; Starting my papermaking journey</h2>
+					<p>A few months ago I thought it would be a good idea to try papermaking so I could have my own unique papers to print on.</p>
+					<p>I saved my leftover paper from my journaling to have materials ready for papermaking.</p>
+					<h3>&gt;&gt; General papermaking process</h3>
+					<p>To form paper, you use a tool called a "mould and deckle". The mould is a frame with mesh attached to it. The deckle is another frame that is used to shape the paper on top of the mould.</p>
+					<p>You can make paper pulp by blending or pulverizing paper scraps that have been soaked in water.</p>
+					<p>You would pour the pulp into a tub of water and evenly disperse it with a mixing stick. Next, you would scoop up the pulp with the mould and deckle to start forming the paper. The more pulp you scoop into the mould, the thicker the paper becomes. To make the paper as even as possible, you would gently shake the mould back and forth, letting the water level out the pulp.</p>
+					<p>When you're done scooping the pulp, you would lift the mould out of the water and let it seep through the mesh. When the pulp has completely settled in the mould, the deckle can be removed and then you can press the paper onto a surface. For example, you could place it onto some paper towels, a smooth table, or some fabric. The paper will take on the texture of the surface you choose. Let the paper dry, optionally, under some pressure... Voilà! You've made paper!</p>
+					<h2>&gt;&gt; FIY (forage-it-yourself) materials</h2>
+					<p>Rather than going out and buying supplies, I decided to use items I found around the house. I thought popsicle sticks and twine would be decent for this purpose.</p>
+					<h3>&gt;&gt; Popsicle sticks frame</h3>
+					<p>I wanted to make a postcard-sized paper, so I thought about making a 4 in x 6 in deckle [1]. Later on, I made a 3 cm x 4 cm prototype to use less materials.</p>
+					<p>I tried to cut some popsicle sticks to create a deckle frame. It was difficult to cut popsicle sticks with a craft knife. I traced the cut line with the craft knife repeatedly until I could use that point to snap it apart. I sanded down the short edges of the sticks, but it was all in vain.</p>
+					<p>When I hot glued the sticks together to make a frame, they didn't stick very well. If I bent the joins lightly, they immediately broke apart. When I tested the joins in water, they separately easily... I decided to use a different material that was easier to work with.</p>
+					<h3>&gt;&gt; Milk carton frames and twine mesh</h3>
+					<p>Milk cartons are waterproof and somewhat sturdy. They're easier to cut at least. I washed the cartons I saved and cut the sides into panels.</p>
+					<p>I cut some of the milk carton panels into thin strips and cut notches into them so I could attach a mesh to those strips. At this point, I had already knitted a 3 cm x 4 cm stockinette stitch panel with twine. Surprisingly, the frame held together quite nicely by tension! However, the mesh itself sagged and I thought it wouldn't have been able to hold paper pulp without additional support.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/mesh_front.png" alt="Milk carton frame with a knit panel attached, next to a twine ball." />
+					<p>I would've clamped this between two popsicle stick frames to act similarly to a mould and deckle, but it was a little flimsy so I stopped with this experiment [2].</p>
+					<p>I did make another frame out of stacked 1 cm wide milk carton strips with tape to hold them together, but nothing resulted from it. However, I learned that tape is much stronger than hot glue underwater.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/milk_carton_frame.png" alt="Frame made out of stacked 1 cm milk carton strips and tape."/>
+					<p>From using milk cartons as a material, I learned that the uncoated cut edges are not waterproof at all. If it absorbs too much water, it bends. However, it does dry quickly.</p>
+					<h2>&gt;&gt; Researching the bamboo screen</h2>
+					<p>At this point in time, I rediscovered books through Project Gutenberg. They have papermaking books in their catalog, and one particular book I saw (but I can't find again to credit), noted that there was an alternative to the classic mould and deckle. This was important because I didn't have any wire mesh to use for papermaking. From what I could remember, it was a book about Western papermaking and it noted that there was a Japanese tool called a "suketa" / "sugeta", which uses a bamboo screen rather than wire mesh. When I searched for it online, I only found results about where to buy one, but not how to make it.</p>
+					<p>I did learn that there were many videos on the process of Japanese papermaking using a suketa on YouTube. From what I watched, the tool looks like it has two hinged frames and a separate screen made of bamboo. The only difference between a suketa and a mould and deckle, is the removable screen. The papermaking videos were intriguing to watch, but it wasn't what I was looking for.</p>
+					<p>Somehow, I found a video on Facebook about creating a bamboo screen for Chinese papermaking. Not long after, I found another video showing a similar process in building a screen for Vietnamese papermaking.</p>
+					<h2>&gt;&gt; Making a popsicle stick screen</h2>
+					<p>Now that I have a general idea of how they're made, I was ready to make a simplified version with materials I have on hand. In the papermaking videos, when I saw them picking up the screen and rolling the paper off, I was reminded of sushi mats. I figured that a sushi mat would be similar enough to a bamboo screen, so I looked for videos that showed how to make one (as I assumed those videos would be more readily available).</p>
+					<p>I found one showing how to repair sushi mats and another one for making a mini sushi mat prop. I tried sewing [3] some popsicle sticks together based on the repair video and made something akin to a Jacob's Ladder toy. It was fun to shake around and easy enough to store away.</p>
+					<img loading='lazy' src='https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/popsicle_stick_screen.png' alt='Popsicle sticks screen' />
+					<h2>&gt;&gt; My first papermaking attempt</h2>
+					<p>I soaked some paper overnight and some other paper for several days to see if it made the scraps easier to turn into pulp. The soaking time didn't seem to make any difference...</p>
+					<p>I didn't have a blender or a mortar and pestle, so I got a clean yogurt cup and a pen ready to break down the paper. I hit the paper with the end of the pen repeatedly until it started to break down. I ripped them apart to help the process and eventually, it became paper pulp. There were a lot of clumps, but it was good enough.</p>
+					<p>I poured the pulp into a small container filled with water and swished it around to disperse it. The pulp settles to the bottom quickly so I had to work fast. The milk carton deckle I had previously fell apart before I could use it to form any paper. I tried to scoop the pulp with the popsicle screen but it didn't work out either.</p>
+					<p>Things weren't going very well. I didn't account for the threads on the screen being affected by water. They pulled the sticks together, which made it difficult for water to past through. The water and paper pulp just slid off of it.</p>
+					<p>At this point I gave up on scooping the pulp and instead poured the pulp directly onto the screen. I flattened the pulp down as much as I could and then placed that screen face down onto a paper towel. I managed to peel it off the screen and onto the towel.</p>
+					<p>Paper!</p>
+					<p>I blotted the paper and flipped it back and forth when it was dry enough to do so. I did this because I didn't want the pattern of the paper towel to be imprinted onto the paper. I left it to dry on the table and by the next day, it was dry.</p>
+					<p>It was pretty cool to see the pattern of the screen on the paper. You could see the thread lines and the gaps between the popsicle sticks imprinted onto the paper.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/popsticle_stick_paper.png" alt="Two pieces of paper created from a popsticle stick screen. The left piece of paper is the front textured view and the right piece of paper is the imprinted back view."/>
+					<p>I cleaned up and sieved any leftover pulp from the water through some paper towels. It's not something you want in your plumbing. A great thing about it, is that paper chunks form right on the towel paper! These pieces can be stored away for another papermaking opportunity.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/first_papers.png" alt="Pieces of paper formed by sieving through paper towels."/>
+					<p>For my first papermaking attempt, I could see that making paper was the easy part. The difficult part is forming it properly. I needed a finer screen and a working deckle.</p>
+					<h2>&gt;&gt; A small, new, better milk carton frame</h2>
+					<p>This time, I figured that I could cut a whole frame out of one milk carton panel. This means that I didn't have to use glue to keep the sides of the frame together. However, I could only make a deckle sized for a 3 cm x 4 cm sheet. The sides of the frame were cut 2 cm in width, which was enough space for me to hold onto. One panel is too thin on its own as it will bend underwater, so I cut out eight total pieces to put together, four for each frame.</p>
+					<p>I tied the stacks together with arbor knots [4], which were something I learned about in a forum. I could untie it easily without cutting it to dry out the layers of the milk carton frames. If the knot became loose, then I could tighten the knot again.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_frame_with_paper.png" alt="Milk carton frame enclosing a toothpick screen next to a piece of well-formed paper."/>
+					<h2>&gt;&gt; Small screen made out of toothpicks</h2>
+					<p>I couldn't find any skewers, but I did find a container of bamboo toothpicks [5] sitting in one of the cupboards.</p>
+					<p>I determined the amount of toothpicks by placing enough of them to cover the hole in the frame. I also added some more to account for sewing thread shrinkage this time. After measuring the amount of toothpicks, I cut off the pointed ends and sanded them flat. I sewed them together and attached two milk carton strips on either end for holding points. The resulting screen is uneven, but there's just enough room for a 3 cm x 4 cm sheet of paper to form on top.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_screen_with_paper.png" alt="Two pieces of paper next to a toothpick screen. One piece of paper has writing &quot;bumpy and gritty&quot; with a drawing of a bun."/>
+					<h2>&gt;&gt; Working on hinges for the frame</h2>
+					<p>With two separate frames and a screen, they were definitely going to slide around as I held them together. I wanted to connect the frames together so I didn't have to deal with that while making paper.</p>
+					<p>At first I made loops out of milk carton strips and attached them between the frame layers. I stuck a wooden dowel into the loops so it would act like an actual hinge. The idea worked, but it fell out without glue. As an alternative idea, I could have made holes in the frames and tied them together with thread, but it probably would have been difficult to move the frames apart.</p>
+					<p>I tried replicating the cardboard hinges in a video I watched using tape in the same way. It allowed the frames to rotate around and kept it from moving side to side. When I did my second attempt at papermaking, the tape lasted long enough to make a decent amount of paper sheets before sliding off.</p>
+					<p>After all that trial and error, I decided to tie the frames directly to a wooden dowel. It worked nicely and stayed together for my most recent attempt.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_screen_with_frame.png" alt="Toothpick screen with the opened milk carton frame."/>
+					<h2>&gt;&gt; Third attempt at papermaking</h2>
+					<p>I made some paper pulp and tried again for the third time [6]. I found a larger tub, which I filled less than halfway with water. I didn't make enough paper pulp this time, so I leaned the tub at an angle to gather the pulp together. There was a decent amount of space for my hands this time!</p>
+					<p>I swished around the pulp beforehand and then clamped the screen between the frames [7] to scoop the pulp. I dipped the frame in and scooped upwards in a gentle "u" motion. There's a certain technique to this! It's difficult because the deckle side of the frame has a shallow depth. The paper pulp doesn't stay in and gets washed out in the next dip.</p>
+					<p>Keep the frame close to the surface and move it back and forth to pick up the pulp evenly. It would have been easier with a lot more pulp in the water. When there was a decent amount of pulp on the screen, I lifted the frame out of the water and let it all drip down. The edges of the frames and the threads aren't smooth so they can catch onto the paper when I lift the deckle side. I just lightly pushed the paper down so it stays on the screen.</p>
+					<p>I took the screen out and rolled the sheet right onto a paper towel. Some sheets needed to be peeled off the screen though. I let some sheets dry on the paper towel without agitating them and moved other sheets onto a smooth table. I also left some on thin, smooth cardboard from some packaging too. With the fan running in the background, they were dry within a few hours.</p>
+					<p>The paper towel sheets were imprinted with a paper towel pattern and the ones on the table were smooth and shiny. The sheets on thin cardboard dried with a strong ribbed texture from the screen. In all of the papers, the texture of the screen came through nicely.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/towel_paper.png" alt="Four pieces of towel paper sheets arranged diagonally showing off their patterned texture."/>
+					<h2>&gt;&gt; My thoughts at the end of this adventure</h2>
+					<p>They're not perfect, but they were close to 3 cm x 4 cm in size. I was surprised at the crisp edges of the paper sheets.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_last_paper.png" alt="Ten sheets of textured paper neatly arranged in a circle."/>
+					<p>In my previous attempt, the edges were bumpy and the papers were quite lumpy. As seen below:</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_first_paper.png" alt="Nine sheets of paper neatly arranged in a grid."/>
+					<p>You could also make the paper really quite thin if you wanted to. This piece of paper below was made without a deckle right on the screen and the edges are thin quite like tissue paper.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/toothpick_paper.png" alt="Paper sheet made without the frame."/>
+					<p>When I tried to stamp the papers with alcohol ink, the paper fibers stuck to the stamp which wasn't fun. Misting the paper helped somewhat, but I lost a bunch of details in doing so.</p>
+					<img loading='lazy' src="https://github.com/jennydevs/jennydevs.github.io/blob/main/src/pages/content/devlogs/2025_11_08_0/marker_smeared_paper.png" alt="Paper stamped with alcohol ink. It's smeared."/>
+					<p>Gouache does works on the dry paper sheets, so I think I'll be experimenting with that later on.</p>
+					<p>When I work on this again, I would like to experiment with different materials to make screens. Thin straws, metal wire, and skewers seem like good materials. Clay could be used to make the deckle frame instead of wood, or in this case, milk cartons. There are more keywords to research like sizing, watermarks, calendaring, etc, but I'll leave those for another time.</p>
+					<p>The paper I have now is unsatisfactory for printmaking, but I hope to apply what I've learned to make proper and bigger tools and sheets of paper later on.</p>
+					<h2>&gt;&gt; Footnotes</h2>
+					<p>[1]: I like the untrimmed edges, but I want to have the choice of trimming it, should I make the deckle slightly larger? Hmm...</p>
+					<p>[2]: Perhaps I could've made a mesh out of the milk carton itself? There's a tedious idea for another time.</p>
+					<p>[3]: I could've used a thin threader for pulling the thread through instead of a sewing needle...</p>
+					<p>[4]: Normal knots would have been fine...</p>
+					<p>[5]: I specify bamboo because the pulp didn't seem to stick to it as much as it stuck to wooden dowels of a different kind.</p>
+					<p>[6]: My second attempt was super messy (spilled water) and this devlog is getting too long so I'm omitting it.</p>
+					<p>[7]: I don't know what to call this tool at all... It's not quite a mold and deckle or a suketa... I like just calling it frames and a screen.</p>
+					<h2>&gt;&gt; Resources I found for papermaking</h2>
+					<p>Book on Project Gutenberg about Western papermaking with a remark about the "suketa" that inspired me to start researching alternatives to the mould and wire mesh screens</p>
+					<ul>
+						<li>Missing source...</li>
+					</ul>
+					<p>Japanese papermaking</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=ZeruBYGXaNk">https://www.youtube.com/watch?v=ZeruBYGXaNk</a></li>
+						<li><a href="https://www.youtube.com/watch?v=k--cnSbS1gU">https://www.youtube.com/watch?v=k--cnSbS1gU</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Oc-A4juLgsk">https://www.youtube.com/watch?v=Oc-A4juLgsk</a></li>
+					</ul>
+					<p>Suketa from Aimee Lee</p>
+					<ul>
+						<li><a href="https://www.aimiaartworks.com/suketa.html">https://www.aimiaartworks.com/suketa.html</a></li>
+					</ul>
+					<p>Korean papermaking</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=1_nWOO10ODk">https://www.youtube.com/watch?v=1_nWOO10ODk</a></li>
+					</ul>
+					<p>Chinese bamboo screen craftsmanship</p>
+					<ul>
+						<li><a href="https://www.facebook.com/AcrossAsiaPage/videos/crafting-the-tang-dynastys-papermaking-bamboo-screen/776213474695193/">https://www.facebook.com/AcrossAsiaPage/videos/crafting-the-tang-dynastys-papermaking-bamboo-screen/776213474695193/</a></li>
+					</ul>
+					<p>Vietnamese papermaking and screen craftsmanship</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=MMstQw0m3TE">https://www.youtube.com/watch?v=MMstQw0m3TE</a></li>
+					</ul>
+					<p>Sushi mat prop and repairs</p>
+					<ul>
+						<li>Sushi mat prop
+							<ul>
+								<li><a href="https://www.youtube.com/watch?v=IzbBYglZzDA">https://www.youtube.com/watch?v=IzbBYglZzDA</a></li>
+							</ul>
+						</li>
+					<li>Sushi mat repairs
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=xuMSvpEo1AI">https://www.youtube.com/watch?v=xuMSvpEo1AI</a></li>
+						<li><a href="https://www.youtube.com/watch?v=iQw65hud1FA">https://www.youtube.com/watch?v=iQw65hud1FA</a></li>
+					</ul>
+						</li>
+					</ul>
+					<p>Arbor knot</p>
+					<ul>
+						<li>Forum
+							<ul>
+								<li><a href="https://arbtalk.co.uk/forums/topic/94029-slip-knots-for-log-bundles/">https://arbtalk.co.uk/forums/topic/94029-slip-knots-for-log-bundles/</a></li>
+							</ul>
+						</li>
+						<li>Knot tutorial
+							<ul>
+								<li><a href="https://www.youtube.com/watch?v=y1d0LikjiC4">https://www.youtube.com/watch?v=y1d0LikjiC4</a></li>
+							</ul>
+						</li>
+					</ul>
+					<p>Cardboard hinges</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=dciE0sqWrUQ">https://www.youtube.com/watch?v=dciE0sqWrUQ</a></li>
+					</ul>
+					<p>Paper watermarks</p>
+					<ul>
+						<li><a href="https://nycroblog.com/2023/03/14/patterns-in-paper-an-introduction-to-watermarks-found-within-record-office-collections/">https://nycroblog.com/2023/03/14/patterns-in-paper-an-introduction-to-watermarks-found-within-record-office-collections/</a></li>
+					</ul>
+					<p>Awagami Factory</p>
+					<ul>
+						<li><a href="https://www.jacksonsart.com/blog/2024/01/24/on-location-at-awagami-factory/">https://www.jacksonsart.com/blog/2024/01/24/on-location-at-awagami-factory/</a></li>
+					</ul>
+					<p>Reddit r/papermaking</p>
+					<ul>
+						<li><a href="https://www.reddit.com/r/papermaking/">https://www.reddit.com/r/papermaking/</a></li>
+					</ul>
+					<p>DIY mould and deckle</p>
+					<ul>
+						<li><a href="https://paperslurry.com/blog/2014/08/01/make-mould">https://paperslurry.com/blog/2014/08/01/make-mould</a></li>
+					</ul>
+					<h3>&gt;&gt; Miscellaneous resources after the fact</h3>
+					<p>Leaves papermaking</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=V10GaezQWhs">https://www.youtube.com/watch?v=V10GaezQWhs</a></li>
+					</ul>
+					<p>Presentation on papermaking</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=TH9bfbjOP_4">https://www.youtube.com/watch?v=TH9bfbjOP_4</a></li>
+					</ul>
+					<p>Texts on papermaking</p>
+					<ul>
+						<li><a href="https://www.magnoliapaper.com/">https://www.magnoliapaper.com/</a></li>
+					</ul>
+					<p>Large-scale papermaking</p>
+					<ul>
+						<li><a href="https://jerinpaulson.blogspot.com/2010/09/large-scale-papermaking.html">https://jerinpaulson.blogspot.com/2010/09/large-scale-papermaking.html</a></li>
+					</ul>
+					<p>Washi workshop</p>
+					<ul>
+						<li><a href="https://hanga-land.blogspot.com/2019/02/workshop-washi.html">https://hanga-land.blogspot.com/2019/02/workshop-washi.html</a></li>
+					</ul>
+					<p>Korean papermaking and Hanji screen craftsmanship</p>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=ZITaAE07SQ0">https://www.youtube.com/watch?v=ZITaAE07SQ0</a></li>
+						<li><a href="https://www.youtube.com/watch?v=a0PsSyjCigg">https://www.youtube.com/watch?v=a0PsSyjCigg</a></li>
+					</ul>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Devlogs Maker] #2: Brief Overview of Basic Features</title>
+			<link>https://jennydevs.github.io/devlogs/log/2025-06-17-0</link>
+			<guid isPermaLink="false">2025-06-17-0</guid>
+			<pubDate>Tue, 17 Jun 2025 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>June 17, 2025 - (Updated March 29, 2026)</p>
+					<hr />
+					<div class="devlog-content"><h2>&gt;&gt; Intro</h2>
+					<p>Hi everyone, I'm going to get to the basic features (suppose this is a MVP) of Devlogs Maker. I went over the basic process in my <a href="https://jennydevs.github.io/devlogs/log/2025_06_08_0">last devlog</a>.</p>
+					<h2>&gt;&gt; Verify User</h2>
+					<p>I first created a Github App on my user account, so I could get the client id and key for the app. I needed to use those credentials for requesting a user code for the app through the device flow, since it's not a web app. I used this <a href="https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-user-access-token-for-a-github-app#using-the-device-flow-to-generate-a-user-access-token">tutorial</a> from Github Docs. I also used this <a href="https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-access-tokens#refreshing-a-user-access-token-with-a-refresh-token">tutorial</a> for refreshing user access tokens.</p>
+					<p>I added buttons to match the steps required to get the user code.</p>
+					<ul>
+						<li>'1. Request Verify Code' to send a POST request through HTTPRequest asking Github for the device, user codes.</li>
+						<li>'2. Verify Code' is the link where the user clicks to get sent to their web browser. The verification code displayed will be used at the link.</li>
+						<li>'3. Tell App to Confirm' is used to poll Github and see if the user did confirm access for the app. Then it'll return the refresh and user access token that will be used to post these devlogs on the repo.</li>
+						<li>'4. Refresh User Token' is for the last step after all of this, which is requesting a new user access token once the last one has expired. This can be repeated multiple times until the expiration of the refresh token.</li>
+					</ul>
+					<p>I added an 'Override' button just in case things went wrong, but it doesn't seem useful, so I'll remove it in the future. Its purpose is to enable the buttons to be clickable if something went wrong.</p>
+					<p>The date of user access token expiration is also displayed on the screen too, although I should format it to be more readable... The expiration date is calculated through a custom method based on the time of requesting the code. I need to account for centuries but I don't think I'll be using the app that long? I'll have to keep that in mind too.</p>
+					<p>I also added some brief instructions just in case I forgot what to do if I didn't use this app for a while.</p>
+					<h2>&gt;&gt; Devlogs</h2>
+					<p>I used <a href="https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-repository-content">Github's REST API</a> for fetching the contents of the repo.</p>
+					<h3>&gt;&gt; Get Posts</h3>
+					<p>If I want to edit some devlogs I already have on the repo, I needed to fetch them down locally. 'Get Posts' makes a GET request to Github at the specific repo and branch that the app has access to (dictated by the github app permissions). The resulting names and download URLs are placed into the 'Devlogs List' where they are listed one by one. Each devlog gets a 'Edit' and 'Delete' button for modifying those devlogs.</p>
+					<p>The other files like the directory and projects info text should be editable as well, but shouldn't show up in the devlogs list. They aren't editable at this moment because editing is specifically for formatted devlogs, not regular text files.</p>
+					<h3>&gt;&gt; Edit Post</h3>
+					<p>This button is used specifically for posting edited devlogs from the 'Devlogs List'. I want to change this and remove this button so there is only one button for posting devlogs, regardless of editing it or not.</p>
+					<h3>&gt;&gt; Delete</h3>
+					<p>Deleting a devlog from the repo is simple. Send a DELETE request over and have the file removed from the repo. There's also a warning implemented just in case I don't want to do that.</p>
+					<p>As I'm writing this I realize that I would need to delete the file name from the directory too. It's great to write things down. I've already added the issue on Github so I don't forget. Good.</p>
+					<h3>&gt;&gt; Clear Text</h3>
+					<p>If I wanted to scrap the current devlog I just needed to click 'Clear Text' to do so. It comes with a warning just in case I didn't want to do that.</p>
+					<h2>Finalize</h2>
+					<h3>&gt;&gt; Create file name from today's date</h3>
+					<p>I had to manually name these files while typing them because their names are important for listing them on the website. Having this button around is pretty useful for formatting the name so I don't have to do it.</p>
+					<h3>&gt;&gt; '&gt;&gt; Format Post &lt;&lt;'</h3>
+					<p>This button is important because if I didn't click it, then the devlog will not be previewable at its current state, and exporting / posting the text would not have any current changes. This needs to be changed since I don't want to click it everytime, and if I forget to do so I'll lose my changes, and that'll be pretty bad.</p>
+					<h2>&gt;&gt; Import / Export Text</h2>
+					<p>At this moment there is no save / load feature for the devlogs, so I needed some way to keep my progress on the devlogs when I needed to go do something else. I added the buttons in the menu 'Import Text' and 'Export Text' for this purpose. I can pick up where I left off by importing a devlog text file in, and save it for later by exporting the text to my 'Downloads' folder.</p>
+					<p>Tip: To export the text file with its name in the title, I needed to modify the path in the file dialog with the current name in the file name space (so it's not 'Untitled').</p>
+					<h2>&gt;&gt; End</h2>
+					<p>Conclusion, I need to update this app to make it more user friendly. Thank you for reading!</p></div>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Devlogs Maker] #1: Posting from the App</title>
+			<link>https://jennydevs.github.io/devlogs/log/2025-06-08-0</link>
+			<guid isPermaLink="false">2025-06-08-0</guid>
+			<pubDate>Sun, 08 Jun 2025 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>June 08, 2025 - (Updated June 19, 2025)</p>
+					<hr />
+					<h2>&gt;&gt; Intro</h2>
+					<p>Hello everyone, I finally completed the basic features for my app "Devlogs Maker". The devlog you see here will be posted from there. I would like to think of a better name for it but it is what it is. There are definitely a few bugs to iron out, but the main features work (mostly) as expected.</p>
+					<p>I would like to go over my process for this app and planned features.</p>
+					<h2>&gt;&gt; Why This Idea Came To Be</h2>
+					<p>I decided to make this app because I didn't want to write my devlogs on my plain text editor or in VSCode's text editor. I didn't want to manually update the date on my devlogs everytime I wanted to edit one or created a new one. I also wanted the space to look pleasant too while I typed them down.</p>
+					<p>It would benefit me in the long run because I can automate the majority of work, and it'll encourage me to write more devlogs in a nice space.</p>
+					<h2>&gt;&gt; Basic Design</h2>
+					<p>I would say that it wasn't too different from designing a webpage. I used several Margin Containers to act as div spacers between the Workspace and the Options Menu. I used the Tab Container for more organized separation of containers between different features. It would make use of the space and the page layout stays the same. I wanted to keep it simple overall.</p>
+					<p>Aside from the GUI, I wanted to add a theme of travel for decoration. The border attached to the Workspace is based on the envelopes for airmail, and the scrolling background is inspired by the background menu in Animal Crossing: Wild World.</p>
+					<h2>&gt;&gt; Too Many Features</h2>
+					<p>I started out creating this app with the intention of posting devlogs to my website, and then I wanted to add more features. I wanted to make it into an app I could use daily, a more general use app. I implemented a to-do list feature in it, an in-progress theme editor, and thought about adding more to something that should be simple in the first place. I partially worked on the editor and the verification system, and then I was going to switch to add more things, like a menu switcher, etc. I realized that if I kept going, I wouldn't have the basic app completed at all.</p>
+					<p>So instead, I threw most of the features away.</p>
+					<h2>&gt;&gt; KISS Principle</h2>
+					<p>I took out the to-do list feature, removed the majority of the buttons, and started again with my original intention of making a way to post my devlogs easier. I left the decorations on and worked on interfacing with the Github API properly through Godot. I tested the verification features and added things as I needed.</p>
+					<h2>&gt;&gt; Why Godot?</h2>
+					<p>I know that there are plenty of other options I could have made the app in, like React Native, or Electron.</p>
+					<p>I would say... why not?</p>
+					<p>I chose Godot because it has features that allow for making HTTP requests, and creating nice GUI too. I wanted to test out those features, and I wanted to build something that wasn't a game in it. I wanted to build my app for a desktop platform and Godot provided that option to do so.</p>
+					<h2>&gt;&gt; Planned Features</h2>
+					<ul>
+						<li>Auto Preview:</li>
+					</ul>
+					<p>I don't want to click Format Post everytime I finish typing a devlog, just to see it, and especially to post it.</p>
+					<ul>
+						<li>Adding Images:</li>
+					</ul>
+					<p>I wanted to add images to my devlogs, so I can show off my games through screenshots, or my papermaking / printmaking efforts.</p>
+					<ul>
+						<li>Auto Save / Save load in-app:</li>
+					</ul>
+					<p>In case I do something drastic, like quitting the app or something, I would like to have the words that I typed down to be saved for later editing.</p>
+					<ul>
+						<li>Theme Editor:</li>
+					</ul>
+					<p>I like that you could customize the scrolling background in Animal Crossing: Wild World when you drag the patterns into the corner. I would like to implement something like that (at least changing the theme).</p>
+					<h2>&gt;&gt; End</h2>
+					<p>I'll write about the buttons and features on my next devlog about this app.</p>
+					<p>I'm going to put my projects up on Github, so at least you can see what I'm doing. I'm not going to edit the devlogs too much so I don't wait around to post it. I hope to add many more projects, (and devlogs!) this year. And I hope to get to finish some games that have been sitting around on my computer.</p>
+					<p>Thank you for reading, and have a good day!</p>
+					<h2>&gt;&gt; Credits</h2>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=TMeT541OLPA">Scrolling Background by Jon Topielski</a></li>
+						<li>Godot Docs</li>
+						<li>Github API Docs</li>
+					</ul>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Creating the Website] Devlog #3: Revamp the Website</title>
+			<link>https://jennydevs.github.io/devlogs/log/2024-12-01-0</link>
+			<guid isPermaLink="false">2024-12-01-0</guid>
+			<pubDate>Sun, 08 Dec 2024 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>December 01, 2024 - (Updated June 19, 2025)</p>
+					<hr />
+					<h2>&gt;&gt; Short Devlog</h2>
+					<p>Hello and welcome back to another devlog. I worked on the website again to change it up.</p>
+					<h4>&gt;&gt; Porfolio Page Removed</h4>
+					<p>Like the Artworks page, I removed it because it would look similar to the Projects page at this point. I need to continue adding many projects here before adding a separate place to feature content. I could use the Home page for that instead.</p>
+					<h4>&gt;&gt; Sidebar Moved</h4>
+					<p>It was on the right side, now it's on the left. I think it looks better on the left side. I would say it's easier to click links on the left rather than the right side.</p>
+					<h4>&gt;&gt; Moving Components</h4>
+					<p>I wanted to move the Sidebar to the middle when the browser has a small width, for example, on phones.</p>
+					<p>Based on media queries of the browser width, I can set the Sidebar <em>flex-direction</em> to column when it's thinner, and <em>flex-direction</em> to row when it's wider. Now it should display on the phone a lot better compared to before, which felt very static.</p>
+					<p>Reading on a smaller screen should be better since the Sidebar isn't occupying horizontal space where the devlogs can go.</p>
+					<h4>&gt;&gt; Text Dates</h4>
+					<p>I changed the dates into this [yyyy/mm/dd/c] format instead of [yyyy/dd/mm/c] format by switching the day and month around. I also renamed the files using underscores so they're easier to read and write to.</p>
+					<h4>&gt;&gt; Borders</h4>
+					<p>In the Header, Footer, and Sidebar, the added borders define the separation of content more clearly. Previously, everything was floating around in space without any anchoring visuals to show what was what.</p>
+					<h4>&gt;&gt; Icon</h4>
+					<p>I created a simple vector graphic of a bunny with sunglasses to upload as the icon of the website. I'll be using it everywhere for now. It does make the website feel somewhat more professional.</p>
+					<h4>&gt;&gt; Additional Thoughts</h4>
+					<ul>
+						<li>Add a loading screen for moving between pages, waiting for it to resize with the content.</li>
+						<li>Add more visuals.</li>
+						<li>Web app, website...</li>
+					</ul>
+					<h2>&gt;&gt; End</h2>
+					<p>Thanks for reading!</p>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Plate Rush! -&gt; Plate, Rush, Serve!] Devlog #2: Customers / Fixing Items / Published!</title>
+			<link>https://jennydevs.github.io/devlogs/log/2024-11-06-0</link>
+			<guid isPermaLink="false">2024-11-06-0</guid>
+			<pubDate>Wed, 06 Nov 2024 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>November 06, 2024 - (Updated June 19, 2025)</p>
+					<hr/>
+					<h2>&gt;&gt; Game Published!</h2>
+					<p>Hello everyone! The game, <em>Plate Rush!</em> has been renamed to, <em>Plate, Rush, Serve!</em> Adding the third word in the title made it sound more like a countdown. Plate... Rush... SERVE!</p>
+					<p>Here's a link to it: <a href="https://jennydevs.itch.io/plate-rush-serve"><em>Plate, Rush, Serve!</em></a></p>
+					<h2>&gt;&gt; Customers</h2>
+					<h4>&gt;&gt; Seats</h4>
+					<p>I separated the seats by table and belt seats. Customers served directly at the conveyor belt can grab an item and leave immediately, while ones that stayed at a table wait till all were served.</p>
+					<p>There aren't any benefits in serving groups in this game, but it's satisfying seeing a group leave all their money behind for collection.</p>
+					<p>If I were to add some benefits, then the player's score should increase based on the number of customers that they served at that particular table. The player who served the most customers at that table collects extra points, aside from the money that you have to manually collect. That could be unfair, so I would have to consider what type of orders were served at the table too. Difficult recipes could be weighted more in points to balance out the result.</p>
+					<h3>&gt;&gt; Creating the Customer</h3>
+					<p>Customers attempt to spawn at a constant interval during the game loop. First the customers check what type of seats are available at the restaurant, either the table seats or the belt seats. If either of those are empty, then choose one type randomly and create customers for it.</p>
+					<p>The customer gets a random order, either food or a drink. They store their seat id and the path they walked. When they're served and ready to leave, they'll walk their previous path back to where they started. They walk based on their individual timers.</p>
+					<h3>&gt;&gt; Updating the Customer</h3>
+					<p>What they do depends on their states, whether they're sitting, already served, or walking.</p>
+					<h4>&gt;&gt; Moving the Customer</h4>
+					<p>I defined areas where the customer could go, in a conveyor belt-like fashion. This walkable area loops around the seats in the center. Before they move in this loop, the customer checks the distance between them and their destination. Then they'll choose the direction that the shorter distance is in. After that, during every update they'll continuously move and check if they reached their destination.</p>
+					<p>The implementation needs to be improved since it seems like most customers loop the long/opposite way around to get to their seats. The long waiting times may be problematic especially for a time-limited game like this.</p>
+					<h4>&gt;&gt; Checking for Their Order</h4>
+					<p>For each customer, iterate through the items sitting on the belt and check if any of those items is front of them. If it's there and it's what the customer ordered, remove it and replace it with money if they're at the belt. If they're at a table, add the order onto the table in front of the customer. This order is replaced with money when everyone is served at that table. (Note: I could check if the item at the key was -1/undefined instead of looping here.)</p>
+					<h4>&gt;&gt; Leaving</h4>
+					<p>Once the customers are served, they take the path back where they came from and make the seat available to other customers.</p>
+					<h2>&gt;&gt; Improving on Items</h2>
+					<p>When items were removed by the player or customer picking up an item, I was originally splicing the array to remove it. This doesn't work for active games, as the index changes for all of the items constantly. It was also inefficient to iterate through every item every time you're looking for a specific one.</p>
+					<p>So I moved them to an Object with the item's location being the key (x,y: "2,3"). I also separated the held item from the items group as well. The key point here is to store all the possible locations an item can be placed, (just set the item there or -1 if empty). Now items from different indexes aren't modified when another item is placed or removed. (Could have done a similar thing with a 2D array as well.)</p>
+					<p>I can spawn items in at specific positions now. Players also sync with the items moving on the conveyor belt much faster too.</p>
+					<h2>&gt;&gt; Additional Thoughts</h2>
+					<ul>
+						<li>If I come back to this project I would add sound effects, so the gameplay experience is improved.</li>
+						<li>I'll also improve on customer navigation.</li>
+						<li>Creating everything really stemmed from the conveyor belt outwards. Specifically timers, and</li>
+					</ul>
+					<p>movement.</p>
+					<ul>
+						<li>I would like to make another game/level with the current code I have, but placed in a cafeteria setting. It would be closer to <em>Sushi Belt</em> where the ingredients would be outside on the counter rather than being in a storage container. It would be easier to pick up, and there would be less menus to look through too. But this depends on the amount of space there is in the level.</li>
+					</ul>
+					<h2>&gt;&gt; End</h2>
+					<p>I stopped at this point so I could work on other projects. I'll add other devlogs for this game when I can. This was a valuable experience to learn from, (especially in debugging), for creating games and other applications.</p>
+					<p>Thank you for reading.</p>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Plate Rush!] Devlog #1: Conveyor Belts and Items</title>
+			<link>https://jennydevs.github.io/devlogs/log/2024-10-23-0</link>
+			<guid isPermaLink="false">2024-10-23-0</guid>
+			<pubDate>Wed, 23 Oct 2024 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>October 23, 2024 - (Updated June 19, 2025)</p>
+					<hr/>
+					<h2>&gt;&gt; The Game!</h2>
+					<p>This is the first devlog for my game made with <a href="https://pixwlk.itch.io/pixelbox">Pixelbox</a>. I decided that <em>Plate Rush!</em> is the title of the game, although I realize now that it sounds quite close to <em>PlateUp!</em>. If I find a better name then I'll change it.</p>
+					<h2>&gt;&gt; Plate Rush Inspiration</h2>
+					<p>Inspired mainly by <a href="https://munro.itch.io/sushi-belt"><em>Sushi Belt</em></a>, and games like <a href="https://store.steampowered.com/app/448510/Overcooked/"><em>Overcooked</em></a>, and <a href="https://store.steampowered.com/app/1599600/PlateUp/"><em>PlateUp!</em></a>.</p>
+					<p>I wanted to make a game based on features that I'm interested in, like cooking something quickly and serving food to customers. I also wanted to try my hand at creating a conveyor belt (commonly?) seen in sushi restaurants. It's sort of a novelty, this idea of food being delivered by a conveyor belt straight to your table.</p>
+					<h2>&gt;&gt; Pixelbox</h2>
+					<p>It's the game engine / framework that I'm using for this project. I used it before because it was simple to start with, and it provided easy access to the sprites and maps for editing. Unfortunately, the framework and game engine hasn't been updated in a long time, around 3-4 years ago.</p>
+					<p>It still works but it could use more features and ease of use for its UI. It definitely needs to be updated as well. It would be better to make a game with established game engines, like Godot, but for this small game it's fine.</p>
+					<h2>&gt;&gt; Items and Conveyor Belts</h2>
+					<h4>&gt;&gt; Belt Properties / Implementation</h4>
+					<p>On the map where I drew a loop of belts, I check for a tile that is a belt, save that tile, then count every belt that exists on the map. Then I create a separate array to store belts in: giving them an id; an id for the belt that it's connected to; a fullness check; where it's facing; if it's the end; their positions; what type of tile is it; and is it a counter for drawing order.</p>
+					<p>For belts and their connections, I check the cardinal directions based on the flip properties and my arrow sprite. Since belts have their direction established, just check what's in front of them, and see if there's a belt or not, and save their id.</p>
+					<p>Now onto moving the items.</p>
+					<h4>&gt;&gt; First Approach</h4>
+					<p>What does a conveyor belt do? A conveyor belt moves something on it towards the direction that it's facing. Following that idea, using the belt's fullness property, check if that's true, if so then move the item on it to the next belt and mark itself as empty.</p>
+					<p>While the items did move forward, this simple approach didn't work as intended. Iterating through every belt forward would cause items to move at a fast speed, and iterating backwards would slow the items down for a reasonable amount of time, but displayed the same issue when two or more items are on the belt.</p>
+					<p>Additionally, if the entire conveyor belt was full, then no items would move at all. This doesn't make sense in a real-life version of a conveyor belt.</p>
+					<h4>&gt;&gt; Second Approach</h4>
+					<p>In the loop I would check if there was an item on the next belt, then save it, and place the current belt's item on the next belt. After that, move the saved item onto the next next belt, checking if it's full and repeating the previous steps. Obviously, this approach doesn't work because items will be lost, for example, when there are items on the belts beyond the next belt, or if the conveyor belt was full.</p>
+					<p>During this process, I added a timer so the conveyor belt waits a certain amount of time before updating all items. This will add a sort of shuffle to the items, and stop all the items from moving super fast.</p>
+					<h4>&gt;&gt; Bugs And Fixes Between Approaches (Item Teleportation?)</h4>
+					<p>Taking a break from the other belt issues, I realized that the ids for the conveyor belts didn't connect together in the loop as intended. I stored them in an array in the order that they were found, so the ids had to match the order of the belts. Items were moving from left to right and from top to bottom order, in a zig-zag. This isn't the correct order for that loop, which is left, down, right, up.</p>
+					<p>To fix this issue, I made use of the directions of each conveyor belt (which I should have done so in the first place), and reassigned id order to each one. Items are looping properly, but the issue where items teleport to the next full belt wasn't resolved yet.</p>
+					<h4>&gt;&gt; Actual Items</h4>
+					<p>Before going further, placeholder id numbers for items were replaced with objects. Items have names, ids, and positions (x,y). Depending on their id, additional properties would be added to them. Items were decoupled from the conveyor belt. Items will take the position of the next belt, and they aren't stored as a property of the belt. The belt will only see if it's full or not. Now items move properly along empty spaces, and don't teleport to the next item spot.</p>
+					<p>I also implemented picking up and placing items. This introduced more problems with item loss on the conveyor belt. Sometimes I could place an item on top of another one, losing the bottom item. For a game that needs this mechanic to work well, this bug needed to be fixed.</p>
+					<h4>&gt;&gt; Third [Time's the Charm!] Approach</h4>
+					<p>I had this persistent thought in my mind that I was doing too many things at once in one loop. I was moving items around and setting the current belt to not full and the next belt to full in the same loop. When players intervene in this process by picking up/placing down an item when items were being updated, then the item was placed down on a belt that was believed to not be full.</p>
+					<p>The current belt will be marked as empty, and the items will take the position of the next belt after it. In a separate loop, the items now on the next belt as their current belt, this belt is set to full. This resolved the issue of modifying belt properties at the same time. Essentially, read from the next belt only, and write to the current belt. Don't modify the next belt yet.</p>
+					<p>I also separated the items on the belt into two different groups by even and odd ids. This helped with the idea of splitting apart the loops.</p>
+					<p>After this approach, the player wasn't able to put down items onto full belts. After testing that several times, aka, spamming the interact button on a full conveyor belt to see if anything happens, it looked like that bug was fixed. There may be bugs related to the npc and player collecting from the belt at the same time, but I haven't confirmed this yet. I was satisfied that everything worked as intended and deemed this approach good enough. The important part was to only modify the current belt that the item is on. Don't modify it too early until the item is on the belt, or the player could place items down when the full property is set to false.</p>
+					<h2>Belt Caveats</h2>
+					<p>The belts I have created only work in a loop, and it only works for 1 loop. They would need some tweaking if I wanted to have several loops of belts going on at the same time, or if the loop is cut off. They're also limited to 1 direction.</p>
+					<p>The way I implemented the conveyor belt, the belts don't move along with the items, they give the items positions instead. I guess it's not quite an actual conveyor belt, but mimicking one.</p>
+					<h2>&gt;&gt; Additional Thoughts</h2>
+					<p><em>For the game...</em></p>
+					<ul>
+						<li>Choose different palette colors aside from the default palette. The colors feel too limiting to work well in a small pixelated game with minimal space for detail. It does provide a challenge to create art that can be seen easily though.</li>
+						<li>Create an object to store the belts, so the order doesn't matter, only the ids do. This would allow more loops to be created too.</li>
+						<li>Better yet, make the belts themselves moving blocks like an actual conveyor belt</li>
+						<li>Frame-rate dependence...</li>
+						<li>Could definitely consider diagonal connections based on given tile properties, or making additional tiles/sprites for them</li>
+						<li>Always list your bugs down, it's helpful to describe them to see what went wrong, and then cross them out when you fixed the problem.</li>
+					</ul>
+					<p><em>For the website...</em></p>
+					<ul>
+						<li>Make sure to write the devlogs as close to the development of the project. Everything is fresh in the mind, and features to write about are consistent with progress.</li>
+						<li>Titles should feature something important that happened in development. Save the rest of the features for later. This can result in better, concise devlogs.</li>
+						<li>Should be consistent on writing numbers (1 or one).</li>
+						<li>How are the logs looking now? They look a lot better with the additional markdown. I also noticed the (Firefox) reader is activated for these logs. Don't refresh the page in the reader though or it won't load. Just activate it again if you do. The markdown fixed a lot of the formatting that showed up in the original log on the reader too, which is nice.</li>
+						<li>Right now it is awful to look at on mobile, I should format the website for it as well.</li>
+					</ul>
+					<h2>&gt;&gt; End</h2>
+					<p>It may be or not be the exact process I went through, but it should be accurate enough. After all, this is a decent way of leaving notes behind if I ever need it in the future. I do hope I come back to read this though. In that case... Hello Future ME, whether it'll be minutes or days from now, I hope the writing above is legible enough to decipher later. If not, I leave it up to you to come back and edit it for better reading purposes. Thanks.</p>
+					<p>And thank YOU, for reading.</p>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Creating the Website] Devlog #2: Continued Progress on the Website</title>
+			<link>https://jennydevs.github.io/devlogs/log/2024-08-16-1</link>
+			<guid isPermaLink="false">2024-08-16-1</guid>
+			<pubDate>Fri, 16 Aug 2024 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>August 16, 2024 - (Updated June 19, 2025)</p>
+					<hr>
+					<div class="devlog-content"><h2>&gt;&gt; Hello!</h2>
+					<p>Welcome back to the next devlog!</p>
+					<p>I will talk about the other sections of this website. I removed the artworks section because it's not necessary at this point in time.</p>
+					<p>Now the sections are:</p>
+					<ol>
+						<li><strong>Home</strong>: Where users may navigate to other pages.</li>
+						<li><strong>Portfolio</strong>: Where I'll curate my best works and display them.</li>
+						<li><strong>Projects</strong>: Display my newest to oldest projects.</li>
+						<li><strong>Devlogs</strong>: Where I can provide explanation behind my ideas and works.</li>
+						<li><strong>Contact</strong>: Provide a way to contact me.</li>
+					</ol>
+					<h2>&gt;&gt; Home</h2>
+					<p>The sidebar that has been present in every page is in the front and center of the homepage. It links to all other pages that exist on this website. It is now a separate component called <strong>Mainbar</strong>. It also has additional links to my Github account and my Itch account.</p>
+					<p>At the moment I don't have any plans to expand it. If I did then I would add a summary about myself here and more visuals.</p>
+					<h2>&gt;&gt; Projects</h2>
+					<p>Each of the projects will have an image, name, and a short description. The image and name will link to the project page if it's hosted on Itch, or a Github repo, or to a related devlog.</p>
+					<p>The data structure of projects is different from the devlogs, the info for each project will be placed into <em>projects_info.txt</em>. For each project in order, the id, name, image name, image description, description and link is written down per line. So there are six lines that correspond to a project. Since the structure isn't variable, I just group those lines together and push the project into an array.</p>
+					<p>I wanted to have three projects per row, so I processed the separate projects further. Using the new component <strong>ProjectMapper</strong>, every three projects are separated into a group and pushed in their own array. When there are not enough projects to fill the row, those remaining projects are pushed in their own array. Finally, all of those groups are pushed into one central array to read from later.</p>
+					<p>These projects groups are mapped per row, and then each individual project is mapped within that row.</p>
+					<h2>&gt;&gt; Portfolio</h2>
+					<p>The portfolio contains project components and will have additional descriptions/summaries/titles for the projects. As of now, it's essentially a copy of the Projects page except the data it draws from is in <em>featured_projects_info.txt</em>.</p>
+					<h2>&gt;&gt; Contact</h2>
+					<p>No unique components were created for this page. I added links here to my social media accounts. I'll also leave my email here for inquiries.</p>
+					<h2>&gt;&gt; Additional Notes</h2>
+					<ul>
+						<li>
+							<p>I could have created a component that would hold the project data and separate them, and then distribute them as needed to both the Projects and Portfolio page. Then I would get the projects by id instead rather than storing them in an array. This would be more useful for the Portfolio page and separating projects by categories. For now, keeping the website simple is fine.</p>
+						</li>
+						<li>
+							<p>Image folder is created. I need to consider the amount of storage space used on the repo.</p>
+						</li>
+						<li>
+							<p>Links are now included in the footer of every page.</p>
+						</li>
+						<li>
+							<p>I should establish a proper style for the website rather than keeping it minimalistic.</p>
+						</li>
+						<li>
+							<p>NavLink from react-router could be used for the sidebar.</p>
+						</li>
+						<li>
+							<p>Added the workaround for redirects.</p>
+						</li>
+					</ul>
+					<h2>&gt;&gt; End</h2>
+					<p>I'll implement more components when neccessary. If there're too many devlogs to list in a reasonable length, then I'll add more pages to accommodate them. I'll also start writing about my other projects aside from this website.</p>
+					<p>Thank you for reading.</p></div>
+				]]>
+			</description>
+		</item>
+		<item>
+			<title>[Creating the Website] Devlog #1: Hello World!</title>
+			<link>https://jennydevs.github.io/devlogs/log/2024-08-16-0</link>
+			<guid isPermaLink="false">2024-08-16-0</guid>
+			<pubDate>Fri, 16 Aug 2024 00:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>August 16, 2024 - (Updated June 19, 2025)</p>
+					<hr>
+					<h2>&gt;&gt; Intro</h2>
+					<p>Hello, and welcome to my website.</p>
+					<p>I'll write about my projects here, beginning with this website.</p>
+					<h2>&gt;&gt; Website Pages</h2>
+					<ol>
+						<li><strong>Home</strong>: Where users may navigate to other pages.</li>
+						<li><strong>Portfolio</strong>: Where I'll curate my best works and display them.</li>
+						<li><strong>Projects</strong>: Display my newest to oldest projects.</li>
+						<li><strong>Devlogs</strong>: Where I can provide explanation behind my ideas and works.</li>
+						<li><strong>Artworks</strong>: Display my recent artworks.</li>
+						<li><strong>Contact</strong>: Provide a way to contact me.</li>
+					</ol>
+					<h2>&gt;&gt; Creating the Website</h2>
+					<p>At first I only used HTML and CSS to build the website, but I ultimately decided on using React instead. It's easy to develop with and the reusable components allow for quick development.</p>
+					<p>I started with the Create React App template, because I previously worked with it for my assignments. However, I reconsidered using it since it used packages that were outdated. I looked for an alternative and found Vite's React app template. It's regularly maintained and their documentation was helpful in deploying my website.</p>
+					<p>Additional packages installed:</p>
+					<ul>
+						<li>React Router</li>
+					</ul>
+					<h2>&gt;&gt; Overview of Devlogs Section</h2>
+					<p>I decided to work on the <strong>Devlogs</strong> page first because I was more familiar with listing posts. I also wanted to start writing devlogs about the projects first.</p>
+					<p>For this project, I didn't want to start with an external database to keep my text files. The text files are stored on the Github repository along with the website. Text files are labeled by [year/day/month/count], where count is the devlog order for that day. A directory listing these file names is also added to map and access the devlogs.</p>
+					<p>There are four components for displaying the devlogs.</p>
+					<ul>
+						<li><strong>Devlogs</strong>: Main page displaying list of logs, (fetch the directory, pass the ids into Logs)</li>
+						<li><strong>Logs</strong>: Map each log based on ids passed in from Devlogs</li>
+						<li><strong>LogSummary</strong>: Display a title and brief description of a linked devlog</li>
+						<li><strong>Log</strong>: Display the entire contents of the devlog</li>
+					</ul>
+					<p>For <strong>LogSummary</strong> and <strong>Log</strong>, fetch the text file and send that info to be processed in parseLogData(). In that info, I added some cues to make it easier to process and display them. After locating the index of these cues, I collect each type of data: title, date, summary, body, and display them.</p>
+					<h2>&gt;&gt; Deploying the Website</h2>
+					<p>I used the given workflow provided at <a href="https://vite.dev/guide/static-deploy.html#github-pages">Vite Deploying Static Content</a> for my use case.</p>
+					<p>I tested deployment with a basic app. React Router's BrowserRouter paths work when links are clicked within the website. They don't work when paths are manually typed in the address bar. So I found a <a href="https://github.com/rafgraph/spa-github-pages">workaround</a> by Rafael Pedicini. This redirects the user back to the correct path in the website. It'll be added to the website soon.</p>
+					<h2>&gt;&gt; Additional Notes</h2>
+					<p>Consider...</p>
+					<ul>
+						<li>adding react-markdown so the devlogs for visual interest.</li>
+						<li>renaming the devlogs/logs</li>
+						<li>continuing to work on the CSS while keeping it simple</li>
+					</ul>
+					<h2>&gt;&gt; Ending Thoughts</h2>
+					<p>The website is not done yet, so I'll continue to write about it until it's complete. It's good to write about my progress, because I'll look back on it later and see what I'll need to improve on.</p>
+					<p>Thank you for reading.</p>
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>

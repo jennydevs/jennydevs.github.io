@@ -1,9 +1,10 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Topbar from '../components/Topbar';
 import Footer from '../components/Footer';
 import ProjectList from '../components/ProjectList';
 
-function Home() {
+function Home({ data }) {
     return (
         <div className='container'>
             <Topbar header_data={'jennydevs'}/>
@@ -16,7 +17,7 @@ function Home() {
                 <img className='img-border' alt='' />
                 <h1 className='outlined-header' style={{'textAlign': 'center'}}>Recent Projects</h1>
                 <hr />
-                <ProjectList amt_of_projects={3} year={2025} oldest_first={false}/>
+                <ProjectList image_data={data} amt_of_projects={3} year={2025} oldest_first={false}/>
                 <img className='img-border' alt='' />
             </div>
             <Footer />
@@ -27,3 +28,18 @@ function Home() {
 export default Home;
 
 export const Head = () => <title>jennydevs</title>;
+
+export const projectQuery = graphql`
+  query{
+	allFile(filter:{sourceInstanceName: {eq:"project_images"}}){
+    edges{
+      node{
+        childImageSharp{
+          gatsbyImageData(layout: FULL_WIDTH)
+        }
+        base
+      }
+    }
+  }
+}
+`;

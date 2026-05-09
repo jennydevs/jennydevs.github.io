@@ -38,7 +38,7 @@ function Topbar({header_data}) {
                     </ul>
                 </nav>
                 <nav>
-                    <ul className='topbar-link-list'>
+                    <ul className='topbar-link-list topbar-link-alignment'>
                         <li className='topbar-link-holder'>
                             <Link to={'/'} className='topbar-link'>Home</Link>
                             <img className='topbar-link-spacer yellow-tulip' alt='' />
@@ -49,6 +49,11 @@ function Topbar({header_data}) {
                         </li>
                         <li className='topbar-link-holder'>
                             <Link to={'/devlogs'} className='topbar-link'>Devlogs</Link>
+                        </li>
+                        <li className='topbar-link-holder'>
+                            <a href={'/jennydevs-rss.xml'} className='topbar-link'>
+                                <img className='topbar-link-spacer rss-link' alt='RSS' />
+                            </a>
                         </li>
                     </ul>
                 </nav>
