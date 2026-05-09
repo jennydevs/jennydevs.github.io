@@ -1,13 +1,13 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { getSrc } from 'gatsby-plugin-image';
 import Project from './Project.jsx';
 
 function setupImageList(images) {
     var imgs = {};
     for (let i = 0; i < images.length; i++) {
-        imgs[images[i].node.base] = images[i].node.childImageSharp.gatsbyImageData.images.fallback.src;
+        imgs[images[i].node.base] = getSrc(images[i].node);
     }
-    
     return imgs;
 }
 
